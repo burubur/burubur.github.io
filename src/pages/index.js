@@ -16,7 +16,7 @@ export default function Home() {
           </span>
         </div>
       </div>
-      <div className="content-body">
+      <div className="body">
         <a
           href="https://github.com/users/burubur/projects/1"
           target="blank"
