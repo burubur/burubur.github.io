@@ -36,8 +36,6 @@ a:visited {
 }
 .navbar {
   min-width: 100vw;
-  display: flex;
-  background-color: red;
 }
 .navbar span {
   padding: 14px 26px;
@@ -52,11 +50,10 @@ a:visited {
   display: inline-block;
 }
 .footer {
-  background-color: grey;
+  min-width: 100vw;
   position: absolute;
   bottom: 0px;
   display: flex;
-  min-width: 100vw;
   justify-content: center;
 }
 .footer-item {
