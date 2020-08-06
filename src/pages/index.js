@@ -3,7 +3,7 @@ import React from "react"
 export default function Home() {
   return (
     <div className="content">
-      <div className="navbar">
+      {/* <div className="navbar">
         <span className="brand">
           <a href="/">Burhan Mubarok</a>
         </span>
@@ -15,7 +15,7 @@ export default function Home() {
             <a href="https://www.youtube.com/c/BurhanMubarok">Video</a>
           </span>
         </div>
-      </div>
+      </div> */}
       <div className="body">
         <a
           href="https://github.com/users/burubur/projects/1"
