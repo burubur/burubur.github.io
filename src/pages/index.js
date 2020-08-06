@@ -26,17 +26,17 @@ export default function Home() {
         </a>
       </div>
       <div className="footer">
-        <span class="footer-item">
+        <span className="footer-item">
           <a target="blank" href="https://medium.com/@burubur">
             Medium
           </a>
         </span>
-        <span class="footer-item">
+        <span className="footer-item">
           <a target="blank" href="https://twitter.com/burhanmubarok">
             Twitter
           </a>
         </span>
-        <span class="footer-item">
+        <span className="footer-item">
           <a target="blank" href="https://github.com/burubur">
             Github
           </a>

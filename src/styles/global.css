@@ -8,6 +8,15 @@ body {
 a {
   color: #000;
 }
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
 .content {
   min-height: 100vh;
   background-image: linear-gradient(
