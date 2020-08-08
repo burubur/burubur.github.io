@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{RXBc:function(t,e,n){"use strict";n.r(e),n.d(e,"default",(function(){return c}));var a=n("q1tI"),r=n.n(a);function c(){return r.a.createElement("div",{className:"content"},r.a.createElement("a",{href:"https://github.com/users/burubur/projects/1",target:"blank",className:"label"},"Project Status"))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-a79246b0945e6382e48c.js.map
