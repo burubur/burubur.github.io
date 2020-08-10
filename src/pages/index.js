@@ -3,6 +3,17 @@ import React from "react"
 export default function Home() {
   return (
     <div className="container">
+      <div className="nav">
+        <div className="nav-brand">Burhan Mubarok</div>
+        <div className="nav-menu">
+          <div className="nav-menu-item">
+            Blog
+          </div>
+          <div className="nav-menu-item">
+            Video
+          </div>
+        </div>
+      </div>
       <div className="body">
         <a
           href="https://github.com/users/burubur/projects/1"
