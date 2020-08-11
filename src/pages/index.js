@@ -4,13 +4,15 @@ export default function Home() {
   return (
     <div className="container">
       <div className="nav">
-        <div className="nav-brand">Burhan Mubarok</div>
+        <div className="nav-brand">
+          <a href="/">Burhan Mubarok</a>
+        </div>
         <div className="nav-menu">
           <div className="nav-menu-item">
-            Blog
+            <a href="https://medium.com/@burubur">Blog</a>
           </div>
           <div className="nav-menu-item">
-            Video
+            <a href="https://www.youtube.com/burhanmubarok">Video</a>
           </div>
         </div>
       </div>
