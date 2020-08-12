@@ -9,10 +9,10 @@ export default function Home() {
         </div>
         <div className="nav-menu">
           <div className="nav-menu-item">
-            <a href="https://medium.com/@burubur">Blog</a>
+            <a href="/blog/iqra">Blogs</a>
           </div>
           <div className="nav-menu-item">
-            <a href="https://www.youtube.com/burhanmubarok">Video</a>
+            <a href="https://www.youtube.com/burhanmubarok">Videos</a>
           </div>
         </div>
       </div>
