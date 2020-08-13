@@ -1,21 +1,11 @@
 import React from "react"
+import Navbar from "./../components/navbar"
+import Footer from "./../components/footer"
 
 export default function Home() {
   return (
     <div className="container">
-      <div className="nav">
-        <div className="nav-brand">
-          <a href="/">Burhan Mubarok</a>
-        </div>
-        <div className="nav-menu">
-          <div className="nav-menu-item">
-            <a href="/blog/iqra">Blogs</a>
-          </div>
-          <div className="nav-menu-item">
-            <a href="https://www.youtube.com/burhanmubarok">Videos</a>
-          </div>
-        </div>
-      </div>
+      <Navbar />
       <div className="body">
         <a
           href="https://github.com/users/burubur/projects/1"
@@ -25,23 +15,7 @@ export default function Home() {
           Project Status
         </a>
       </div>
-      <div className="footer">
-        <span className="footer-item">
-          <a target="blank" href="https://medium.com/@burubur">
-            Medium
-          </a>
-        </span>
-        <span className="footer-item">
-          <a target="blank" href="https://twitter.com/burhanmubarok">
-            Twitter
-          </a>
-        </span>
-        <span className="footer-item">
-          <a target="blank" href="https://github.com/burubur">
-            Github
-          </a>
-        </span>
-      </div>
+      <Footer />
     </div>
   )
 }
