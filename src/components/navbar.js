@@ -1,20 +1,21 @@
 import React from "react"
+import { Link } from "gatsby"
 
 export default function Navbar() {
   return (
     <div className="nav">
       <div className="nav-brand">
-        <a href="/">Burhan Mubarok</a>
+        <Link to="/">Burhan Mubarok</Link>
       </div>
       <div className="nav-menu">
         <div className="nav-menu-item">
-          <a href="/blog/iqra">Blogs</a>
+          <Link to="/blog/iqra">Blogs</Link>
         </div>
         <div className="nav-menu-item">
-          <a href="https://www.youtube.com/burhanmubarok">Videos</a>
+          <Link to="https://www.youtube.com/burhanmubarok" target="blank">Videos</Link>
         </div>
         <div className="nav-menu-item">
-          <a href="/about">About</a>
+          <Link to="/about">About</Link>
         </div>
       </div>
     </div>
