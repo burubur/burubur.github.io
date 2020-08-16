@@ -13,6 +13,9 @@ export default function Navbar() {
         <div className="nav-menu-item">
           <a href="https://www.youtube.com/burhanmubarok">Videos</a>
         </div>
+        <div className="nav-menu-item">
+          <a href="/about">About</a>
+        </div>
       </div>
     </div>
   )
