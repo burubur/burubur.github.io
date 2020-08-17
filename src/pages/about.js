@@ -1,15 +1,6 @@
 import React from "react"
-import Navbar from "./../components/navbar"
-import Footer from "./../components/footer"
+import Layout from "./../components/layout"
 
 export default function Home() {
-  return (
-    <div className="container">
-      <Navbar />
-      <div className="body">
-        burubur.com
-      </div>
-      <Footer />
-    </div>
-  )
+  return <Layout>burubur.com</Layout>
 }
