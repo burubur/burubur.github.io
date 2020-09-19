@@ -99,3 +99,25 @@ a {
     justify-content: space-between;
   }
 }
+
+.posts {
+  padding: 8px;
+}
+
+.post {
+  padding-top: 24px;
+  border-bottom: solid 1px #777;
+}
+
+.post:first-child {
+  padding-top: 0px;
+}
+
+.post-title {
+  font-size: large;
+  font-weight: 600;
+}
+
+.post-date {
+  color: #999;
+}
