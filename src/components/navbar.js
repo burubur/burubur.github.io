@@ -9,10 +9,10 @@ export default function Navbar() {
       </div>
       <div className="nav-menu">
         <div className="nav-menu-item">
-          <Link to="/blog/iqra">Blogs</Link>
+          <Link to="/blog">Blog</Link>
         </div>
         <div className="nav-menu-item">
-          <Link to="https://www.youtube.com/burhanmubarok" target="blank">Videos</Link>
+          <a href="https://www.youtube.com/burhanmubarok" target="blank">Video</a>
         </div>
         <div className="nav-menu-item">
           <Link to="/about">About</Link>
