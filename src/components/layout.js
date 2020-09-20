@@ -8,6 +8,9 @@ export default function Layout({ children }) {
     <div className="application">
       <Helmet>
         <meta charSet="utf-8" />
+        <meta name="description" content="Burhan Mubarok Site" />
+        <meta name="keywords" content="Javascript, React, Go, Golang, Software Engineer, Web Developer, Cloud Enthusiast, Human"></meta>
+        <meta name="author" content="Burhan Mubarok"></meta>
         <title>burubur.com</title>
         <link rel="canonical" href="http://burubur.com" />
       </Helmet>
