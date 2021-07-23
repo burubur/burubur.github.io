@@ -6,7 +6,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "prod": "mkdir -p doc && cp -R public/ ./",
+    "prod": "mkdir -p docs && cp -R public/ ./",
     "dev": "gatsby develop",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
