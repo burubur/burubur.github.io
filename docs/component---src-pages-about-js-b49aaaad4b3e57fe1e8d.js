@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{"3XHS":function(n,u,t){"use strict";t.r(u),t.d(u,"default",(function(){return o}));var e=t("q1tI"),r=t.n(e),c=t("Bl7J");function o(){return r.a.createElement(c.a,null,"burubur.com")}}}]);
+//# sourceMappingURL=component---src-pages-about-js-b49aaaad4b3e57fe1e8d.js.map
