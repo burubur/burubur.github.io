@@ -6,7 +6,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "prod": "gatsby clean && gatsby build && rm -rf docs && mkdir -p docs && cp -R public/ docs/",
+    "prod": "gatsby clean && gatsby build && rm -rf docs && mkdir -p docs && cp -R public/ docs/ && echo burubur.com > docs/CNAME",
     "dev": "gatsby develop",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
