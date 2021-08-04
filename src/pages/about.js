@@ -13,9 +13,9 @@ export default function About() {
         />
         <span className="spacer" />
         <div className="center">
-          Ordinary Indonesian
+          Ordinary Indonesian,
           <br />
-          helping <a href="https://www.gojek.com/">Gojek</a> Engineering.
+          Helping <a href="https://www.gojek.com/">Gojek</a> Engineering.
         </div>
       </div>
     </Layout>
