@@ -9,10 +9,10 @@ export default function About() {
         <StaticImage
           src="../images/photo.jpg"
           alt="photo"
-          className="photo-profile"
+          className="photo-profile animate-fade-in"
         />
         <span className="spacer" />
-        <div className="center">
+        <div className="center animate-fade-in">
           Ordinary Indonesian,
           <br />
           Helping <a href="https://www.gojek.com/">Gojek</a> Engineering.
