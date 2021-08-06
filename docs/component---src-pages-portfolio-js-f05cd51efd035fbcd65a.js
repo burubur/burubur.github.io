@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{E6xs:function(e,t,n){"use strict";n.r(t),n.d(t,"default",(function(){return l}));var r=n("q1tI"),a=n.n(r),c=n("Bl7J");function l(){return a.a.createElement(c.a,null,a.a.createElement("div",{className:"body"},a.a.createElement("div",{class:"typewriter"},a.a.createElement("div",{class:"center typewriter-text"},"Portfolio will be here."))))}}}]);
-//# sourceMappingURL=component---src-pages-portfolio-js-f05cd51efd035fbcd65a.js.map
