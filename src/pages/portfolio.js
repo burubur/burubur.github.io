@@ -6,7 +6,7 @@ export default function About() {
     <Layout>
       <div className="body">
         <div class="typewriter">
-          <div class="center typewriter-text">Portfolio will be here.</div>
+          <span class="center typewriter-text">Portfolio will be here.</span>
         </div>
       </div>
     </Layout>
