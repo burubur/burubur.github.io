@@ -5,10 +5,15 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+@font-face {
+  font-family: "Operator Mono";
+  src: url("../fonts/OperatorMono-Book.otf");
+}
+
 a {
   text-decoration: none;
   color: black;
-  font-weight: 480;
+  font-weight: bold;
 }
 
 .container {
@@ -143,7 +148,6 @@ a {
 }
 
 .typewriter {
-  font-family: Courier, monospace;
   display: inline-block;
 }
 
