@@ -183,3 +183,20 @@ a {
 .center {
   text-align: center;
 }
+
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio > div {
+  margin: 16px;
+  width: 200px;
+  text-align: center;
+  line-height: 75px;
+  border: #777 solid 1px;
+  border-radius: 8px;
+}
