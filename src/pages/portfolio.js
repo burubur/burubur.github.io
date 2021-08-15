@@ -2,28 +2,65 @@ import React from "react"
 import Layout from "./../components/layout"
 
 export default function About() {
+  const portfolios = [
+    {
+      title: "burubur.com",
+      year: "2021",
+      image: "aha",
+      desc: "ihi",
+      stacks: "uhu",
+    },
+    {
+      title: "barayacare.com",
+      year: "2020",
+      image: "something",
+      desc: "amazing description",
+      stacks: "others",
+    },
+  ]
+
   return (
     <Layout>
       <div className="body">
-        <div class="typewriter">
-          <span class="center typewriter-text">In progress ...</span>
+        <div className="typewriter">
+          <span className="center typewriter-text">In progress ...</span>
         </div>
-        <span class="spacer" />
-        <div className="portfolio">
-          <div className="item">one</div>
-          <div className="item">two</div>
-          <div className="item">three</div>
-          <div className="item">four</div>
-          <div className="item">five</div>
-          <div className="item">six</div>
-          <div className="item">seven</div>
-          <div className="item">eight</div>
-          <div className="item">nine</div>
-          <div className="item">ten</div>
-          <div className="item">eleven</div>
-          <div className="item">twelve</div>
-        </div>
+        <span className="spacer" />
+        <PortfolioItems data={portfolios} />
       </div>
     </Layout>
+  )
+}
+
+function PortfolioItems(props) {
+  return (
+    <div className="portfolio">
+      {props.data.map((p, i) => (
+        <PortfolioItem
+          key={i}
+          year={p.year}
+          title={p.title}
+          image={p.image}
+          desc={p.desc}
+          stacks={p.stacks}
+        />
+      ))}
+    </div>
+  )
+}
+
+function PortfolioItem(props) {
+  return (
+    <div className="card">
+      Year: {props.year}
+      <br />
+      Title: {props.title}
+      <br />
+      Image: {props.image}
+      <br />
+      Desc: {props.desc}
+      <br />
+      Stacks: {props.stacks}
+    </div>
   )
 }
