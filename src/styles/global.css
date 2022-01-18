@@ -134,6 +134,17 @@ a {
   margin: 10px;
 }
 
+.photo-portfolio {
+  /* max-width: 240px; */
+  border-radius: 10px;
+  /* margin: 10px; */
+  /* width: 100px; */
+  /* height: 240px; */
+  /* background-color: red; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .animate-fade-in {
   animation: animateFadeIn 3s;
 }

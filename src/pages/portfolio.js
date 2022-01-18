@@ -1,21 +1,72 @@
 import React from "react"
 import Layout from "./../components/layout"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function About() {
   const portfolios = [
     {
-      title: "burubur.com",
-      year: "2021",
-      image: "aha",
+      id: "3",
+      title: "Buy Public Train Ticket",
+      year: "2022",
+      image: <StaticImage src="../images/portfolios/krl.png" alt="img" className="photo-portfolio" />,
       desc: "ihi",
       stacks: "uhu",
     },
     {
+      id: "2",
+      title: "burubur.com",
+      year: "2021",
+      image: <StaticImage src="../images/portfolios/burubur-mobile.png" alt="img" className="photo-portfolio" />,
+      desc: "ihi",
+      stacks: "uhu",
+    },
+    {
+      id: "1",
       title: "barayacare.com",
       year: "2020",
-      image: "something",
+      image: <StaticImage src="../images/portfolios/baraya-mobile.png" alt="img" className="photo-portfolio" />,
       desc: "amazing description",
       stacks: "others",
+    },
+    {
+      id: "-1",
+      title: "Trip Advisory Service",
+      year: "2021",
+      image: <StaticImage src="../images/portfolios/krl.png" alt="img" className="photo-portfolio" />,
+      desc: "Handle advisory instruction for driver to reduce rider anxiety",
+      stacks: "uhu",
+    },
+    {
+      id: "-2",
+      title: "Cancellation Service",
+      year: "2021",
+      image: <StaticImage src="../images/portfolios/krl.png" alt="img" className="photo-portfolio" />,
+      desc: "ihi",
+      stacks: "uhu",
+    },
+    {
+      id: "-3",
+      title: "Edit Pickup Service",
+      year: "2020",
+      image: <StaticImage src="../images/portfolios/krl.png" alt="img" className="photo-portfolio" />,
+      desc: "ihi",
+      stacks: "uhu",
+    },
+    {
+      id: "-3",
+      title: "Pickup and Dropoff Aggregation Service",
+      year: "2019",
+      image: <StaticImage src="../images/portfolios/krl.png" alt="img" className="photo-portfolio" />,
+      desc: "Handle pickup and dropoff selection",
+      stacks: "Golang, GCP, VM Based, Microservice",
+    },
+    {
+      id: "-4",
+      title: "Customer Locations Service",
+      year: "2019",
+      image: <StaticImage src="../images/portfolios/krl.png" alt="img" className="photo-portfolio" />,
+      desc: "Handle lifetime customer's historical places",
+      stacks: "Rails, GCP, VM Based, Microservice",
     },
   ]
 
@@ -50,17 +101,25 @@ function PortfolioItems(props) {
 }
 
 function PortfolioItem(props) {
+  let {image} = props
   return (
     <div className="card">
+      {/* {image} */}
       Year: {props.year}
-      <br />
-      Title: {props.title}
-      <br />
-      Image: {props.image}
-      <br />
-      Desc: {props.desc}
-      <br />
-      Stacks: {props.stacks}
+      {/* <br /> */}
+      {/* Title: {props.title} */}
+      {/* <br /> */}
+      {/* <GatsbyImage
+        src={image}
+        alt="img-portfolio"
+        className="photo-portfolio"
+      /> */}
+    
+      {/* {props.image} */}
+      {/* <br /> */}
+      {/* Desc: {props.desc} */}
+      {/* <br /> */}
+      {/* Stacks: {props.stacks} */}
     </div>
   )
 }
