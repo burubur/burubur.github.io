@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-blogtemplate-js","path":"/blog/time","result":{"data":{"markdownRemark":{"html":"<h2>Time is illusion. <strong>- Einstein</strong></h2>","frontmatter":{"date":"August 14, 2020","slug":"/blog/time","title":"Time"}}},"pageContext":{"slug":"/blog/time"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-templates-blog-template-js",
+    "path": "/blog/time",
+    "result": {"data":{"markdownRemark":{"html":"<h2>Time is illusion. <strong>- Einstein</strong></h2>","frontmatter":{"date":"August 14, 2020","slug":"/blog/time","title":"Time"}}},"pageContext":{"slug":"/blog/time"}},
+    "staticQueryHashes": []}
