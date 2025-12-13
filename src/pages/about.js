@@ -15,7 +15,7 @@ export default function About() {
         <div className="center animate-fade-in">
           Ordinary Indonesian,
           <br />
-          Helping <a href="https://www.gojek.com/">Gojek</a> Engineering.
+          Helping <a href="https://www.agoda.com/">Agoda</a> Pricing Engineering.
         </div>
       </div>
     </Layout>
