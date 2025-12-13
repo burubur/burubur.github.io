@@ -15,7 +15,7 @@ export default function Navbar() {
           <a href="https://www.youtube.com/burhanmubarok" target="blank">Video</a>
         </div>
         <div className="nav-menu-item">
-          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/workexp">Work Experience</Link>
         </div>
         <div className="nav-menu-item">
           <Link to="/about">About</Link>

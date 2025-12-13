@@ -11,6 +11,11 @@
       "duration": "Jun 2024 - Present",
       "description": "Rewriting Pricing Backend Service from Scala to Kotlin",
       "projects": ["Pricing Backend"],
+      "achievements": [
+        "Leading migration of pricing backend microservices from Scala to Kotlin",
+        "Implementing modern Kotlin patterns and type-safe architecture for pricing rule engine",
+        "Maintaining system reliability during critical migration of production services"
+      ],
       "current": true
     },
     {
@@ -22,8 +27,14 @@
       "startDate": "2022-10",
       "endDate": "2024-05",
       "duration": "Oct 2022 - May 2024 (1 year 8 months)",
-      "description": "Maintaining microservices reliability and developing product features for transport services including pickup/drop-off aggregation, booking management, and transit integration",
-      "projects": ["Transport Services", "Booking Management", "Transit Integration"],
+      "description": "Maintained transport microservices reliability and developed product features",
+      "projects": ["Pickup and Drop Off Aggregation Service", "Edit Booking Service", "Cancel Booking Service", "Historical Place Service", "Trip Advisor Service", "GoTransit (KRL Train Integration)"],
+      "achievements": [
+        "Delivered 6 major services including pickup/drop-off aggregation, booking management, and transit integration",
+        "Integrated GoTransit with KRL (Indonesian commuter train) system, expanding service coverage to public transit",
+        "Maintained reliability of transport microservices handling ride-hailing operations",
+        "Developed booking edit and cancellation services improving user experience"
+      ],
       "current": false
     },
     {
@@ -48,8 +59,13 @@
       "startDate": "2019-10",
       "endDate": "2019-10",
       "duration": "Oct 2019 (1 month)",
-      "description": "Managing 30+ digital goods microservices, integrating Kafka-based payment systems",
-      "projects": ["Digital Goods Platform", "Payment Systems"],
+      "description": "Maintained 30+ Digital Goods Squad microservices in production",
+      "projects": ["Digital Goods Platform", "Bill Payment Integration", "Telco Biller Integration"],
+      "achievements": [
+        "Maintained 30+ microservices in production for digital goods platform",
+        "Implemented Kafka-based bill payment integrations for PDAM, PLN, BPJS, and Telkom",
+        "Developed telco biller integration service and unified integration service for future billers"
+      ],
       "current": false
     },
     {
@@ -61,8 +77,13 @@
       "startDate": "2018-07",
       "endDate": "2019-09",
       "duration": "Jul 2018 - Sep 2019 (1 year 3 months)",
-      "description": "Microservice maintenance and payment/voucher integration",
-      "projects": ["Payment Integration", "Voucher Systems"],
+      "description": "Maintained 30+ microservices, developed Kafka integrations for digital goods and bill payments",
+      "projects": ["Digital Goods", "Bill Payments", "Game Vouchers"],
+      "achievements": [
+        "Maintained and enhanced 30+ microservices for digital goods operations",
+        "Implemented Kafka-based integrations for digital goods and bill payment systems",
+        "Developed game voucher billing integrations expanding product offerings"
+      ],
       "current": false
     },
     {

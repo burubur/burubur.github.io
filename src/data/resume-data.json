@@ -1,0 +1,52 @@
+{
+  "personal": {
+    "name": "Burhan Mubarok",
+    "title": "Staff Software Engineer",
+    "location": "Sukabumi, West Java, Indonesia",
+    "email": "burhanmubarok@gmail.com",
+    "website": "burubur.github.io",
+    "linkedin": "linkedin.com/in/burhan-mubarok-66289a111",
+    "github": "github.com/burubur"
+  },
+  "summary": "Staff Software Engineer with 10+ years of experience in backend development, microservices architecture, and distributed systems. Currently helping the migration of Agoda's Pricing Backend from Scala to Kotlin. Proven track record in building scalable payment systems, transport services, and digital goods platforms. Passionate about clean code practices and efficient infrastructure design.",
+  "skills": {
+    "languages": ["Golang", "Scala", "Kotlin", "Java", "C#", "NodeJS", "PHP"],
+    "technologies": ["Apache Kafka", "Redis", "MySQL", "MariaDB", "MongoDB", "Datadog"],
+    "specializations": ["Microservices Architecture", "Event Sourcing", "Payment Systems", "API Design", "Backend Development"]
+  },
+  "education": [
+    {
+      "degree": "Bachelor's Degree",
+      "field": "Management Information Systems",
+      "institution": "Universitas Gunadarma",
+      "period": "2011 - 2015"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Electronics Foundations: Fundamentals",
+      "issuer": "LinkedIn Learning",
+      "date": "Nov 2021"
+    },
+    {
+      "name": "Certificate of Competence",
+      "issuer": "Lembaga Sertifikasi Profesi Telematika",
+      "date": "Jul 2010"
+    },
+    {
+      "name": "Certificate of Completion",
+      "issuer": "Ministry of Public Administration & Security, Korea",
+      "date": "Jul 2009"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Professional working proficiency"
+    },
+    {
+      "language": "Indonesian",
+      "proficiency": "Native"
+    }
+  ]
+}

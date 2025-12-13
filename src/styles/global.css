@@ -215,6 +215,52 @@ a {
 .portfolio-summary {
   color: #666;
   font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.resume-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.view-resume-btn,
+.download-resume-btn {
+  background: #000;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.view-resume-btn {
+  background: #555;
+}
+
+.view-resume-btn:hover,
+.download-resume-btn:hover {
+  background: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.view-resume-btn:active,
+.download-resume-btn:active {
+  transform: translateY(0);
+}
+
+.download-resume-btn:disabled {
+  background: #999;
+  cursor: not-allowed;
+  transform: none;
 }
 
 .experience-timeline {
