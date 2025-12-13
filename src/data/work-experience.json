@@ -1,0 +1,141 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "title": "Staff Software Engineer",
+      "company": "Agoda",
+      "companyUrl": "https://www.agoda.com/",
+      "location": "Bangkok, Bangkok City, Thailand",
+      "startDate": "2024-06",
+      "endDate": null,
+      "duration": "Jun 2024 - Present",
+      "description": "Rewriting Pricing Backend Service from Scala to Kotlin",
+      "projects": ["Pricing Backend"],
+      "current": true
+    },
+    {
+      "id": 2,
+      "title": "Lead Software Engineer",
+      "company": "GoTo Group",
+      "companyUrl": "https://www.gotocompany.com/",
+      "location": "Jakarta, Indonesia",
+      "startDate": "2022-10",
+      "endDate": "2024-05",
+      "duration": "Oct 2022 - May 2024 (1 year 8 months)",
+      "description": "Maintaining microservices reliability and developing product features for transport services including pickup/drop-off aggregation, booking management, and transit integration",
+      "projects": ["Transport Services", "Booking Management", "Transit Integration"],
+      "current": false
+    },
+    {
+      "id": 3,
+      "title": "Senior Software Engineer",
+      "company": "GoTo Group",
+      "companyUrl": "https://www.gotocompany.com/",
+      "location": "Jakarta, Indonesia",
+      "startDate": "2019-10",
+      "endDate": "2022-09",
+      "duration": "Oct 2019 - Sep 2022 (3 years)",
+      "description": "Maintaining microservices and developing features for transport-related services",
+      "projects": ["Transport Services"],
+      "current": false
+    },
+    {
+      "id": 4,
+      "title": "Senior Software Engineer",
+      "company": "Grab",
+      "companyUrl": "https://www.grab.com/",
+      "location": "Greater Jakarta Area, Indonesia",
+      "startDate": "2019-10",
+      "endDate": "2019-10",
+      "duration": "Oct 2019 (1 month)",
+      "description": "Managing 30+ digital goods microservices, integrating Kafka-based payment systems",
+      "projects": ["Digital Goods Platform", "Payment Systems"],
+      "current": false
+    },
+    {
+      "id": 5,
+      "title": "Software Engineer",
+      "company": "Grab",
+      "companyUrl": "https://www.grab.com/",
+      "location": "Greater Jakarta Area, Indonesia",
+      "startDate": "2018-07",
+      "endDate": "2019-09",
+      "duration": "Jul 2018 - Sep 2019 (1 year 3 months)",
+      "description": "Microservice maintenance and payment/voucher integration",
+      "projects": ["Payment Integration", "Voucher Systems"],
+      "current": false
+    },
+    {
+      "id": 6,
+      "title": "Software Engineer",
+      "company": "Kudo - PT Kudo Teknologi Indonesia",
+      "companyUrl": "https://www.kudo.co.id/",
+      "location": "Greater Jakarta Area, Indonesia",
+      "startDate": "2017-10",
+      "endDate": "2018-10",
+      "duration": "Oct 2017 - Oct 2018 (1 year 1 month)",
+      "description": "Managing microservices, integrating digital goods and game vouchers",
+      "projects": ["Digital Goods", "Game Vouchers"],
+      "current": false
+    },
+    {
+      "id": 7,
+      "title": "Internal Software Engineer",
+      "company": "Kudo",
+      "companyUrl": "https://www.kudo.co.id/",
+      "location": "Greater Jakarta Area, Indonesia",
+      "startDate": "2017-03",
+      "endDate": "2017-10",
+      "duration": "Mar 2017 - Oct 2017 (8 months)",
+      "description": "Event sourcing microservices, fraud management systems",
+      "projects": ["Event Sourcing", "Fraud Management"],
+      "current": false
+    },
+    {
+      "id": 8,
+      "title": "Software Engineer",
+      "company": "PT Sinergy Media Integrasi",
+      "companyUrl": null,
+      "location": "BSD City, Indonesia",
+      "startDate": "2016-02",
+      "endDate": "2017-03",
+      "duration": "Feb 2016 - Mar 2017 (1 year 2 months)",
+      "description": "C# development including notifications, video streaming, and e-learning platforms",
+      "projects": ["Notification Systems", "Video Streaming", "E-Learning Platform"],
+      "current": false
+    },
+    {
+      "id": 9,
+      "title": "ERP Implementation Consultant",
+      "company": "PT Indodev Niaga Internet",
+      "companyUrl": null,
+      "location": "Greater Jakarta Area, Indonesia",
+      "startDate": "2014-05",
+      "endDate": "2016-01",
+      "duration": "May 2014 - Jan 2016 (1 year 9 months)",
+      "description": "HRIS system implementation and customization using Adobe ColdFusion",
+      "projects": ["HRIS Implementation"],
+      "current": false
+    }
+  ],
+  "summary": {
+    "totalYearsOfExperience": 10,
+    "currentRole": "Staff Software Engineer at Agoda",
+    "primarySkills": [
+      "Backend Development",
+      "Microservices Architecture",
+      "Scala",
+      "Kotlin",
+      "Payment Systems",
+      "Transport Services"
+    ],
+    "companies": [
+      "Agoda",
+      "GoTo Group",
+      "Grab",
+      "Kudo",
+      "PT Sinergy Media Integrasi",
+      "PT Indodev Niaga Internet"
+    ]
+  }
+}
