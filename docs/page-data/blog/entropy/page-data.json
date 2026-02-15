@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-blog-template-js",
-    "path": "/blog/entropy",
-    "result": {"data":{"markdownRemark":{"html":"<h2>Concept</h2>\n<p>Entropy is the measure of disorder in a system. It's the inevitable drift towards chaos.</p>\n<h2>Reflection</h2>\n<p>I feel like my life is a constant battle against entropy. Every day I organize, and every day things fall apart.</p>\n<h2>Conclusion</h2>\n<p>Perhaps the goal isn't to defeat entropy, but to dance with it.</p>","frontmatter":{"date":"February 15, 2026","slug":"/blog/entropy","title":"Entropy"}}},"pageContext":{"slug":"/blog/entropy"}},
-    "staticQueryHashes": []}
