@@ -5,13 +5,13 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
-    "build": "NODE_OPTIONS=--openssl-legacy-provider gatsby build",
-    "prod": "NODE_OPTIONS=--openssl-legacy-provider gatsby clean && gatsby build && rm -rf docs && mkdir -p docs && cp -R public/ docs/",
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop -p 2000",
-    "develop": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop -p 2000",
+    "build": "NODE_OPTIONS=\"--openssl-legacy-provider --no-deprecation\" gatsby build",
+    "prod": "NODE_OPTIONS=\"--openssl-legacy-provider --no-deprecation\" gatsby clean && gatsby build && rm -rf docs && mkdir -p docs && cp -R public/ docs/",
+    "dev": "NODE_OPTIONS=\"--openssl-legacy-provider --no-deprecation\" gatsby develop -p 2000",
+    "develop": "NODE_OPTIONS=\"--openssl-legacy-provider --no-deprecation\" gatsby develop -p 2000",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "NODE_OPTIONS=--openssl-legacy-provider gatsby serve",
+    "serve": "NODE_OPTIONS=\"--openssl-legacy-provider --no-deprecation\" gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
