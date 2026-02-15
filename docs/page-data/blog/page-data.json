@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-blog-js",
     "path": "/blog/",
-    "result": {"data":{"allMarkdownRemark":{"nodes":[{"frontmatter":{"date":"2026-02-15","slug":"/blog/entropy","title":"The Monoloop: Notes from the Engine Room"}},{"frontmatter":{"date":"2020-10-09","slug":"/blog/space","title":"Space"}},{"frontmatter":{"date":"2020-08-14","slug":"/blog/time","title":"Time"}},{"frontmatter":{"date":"2020-08-12","slug":"/blog/iqra","title":"Iqra'"}}]}},"pageContext":{}},
+    "result": {"data":{"allMarkdownRemark":{"nodes":[{"frontmatter":{"date":"2026-02-15 10:00","slug":"/blog/monoloop","title":"The Monoloop"}},{"frontmatter":{"date":"2026-02-15 09:00","slug":"/blog/entropy","title":"Entropy"}},{"frontmatter":{"date":"2020-10-09 00:00","slug":"/blog/space","title":"Space"}},{"frontmatter":{"date":"2020-08-14 00:00","slug":"/blog/time","title":"Time"}},{"frontmatter":{"date":"2020-08-12 00:00","slug":"/blog/iqra","title":"Iqra'"}}]}},"pageContext":{}},
     "staticQueryHashes": []}
