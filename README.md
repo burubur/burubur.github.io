@@ -13,16 +13,7 @@ This repository is part of my personal monorepo.
 
 ## 🚀 Development
 
-### Option A: Via Monorepo (Recommended)
-
-If you are working from the root of the monorepo, you can serve the static build output using the shared Makefile:
-
-```bash
-# Serves the site at http://localhost:1000
-make burubur
-```
-
-### Option B: Standalone Development
+### Development
 
 To work on the site directly with hot-reloading:
 
