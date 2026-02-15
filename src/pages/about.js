@@ -11,12 +11,15 @@ export default function About() {
           alt="photo"
           className="photo-profile animate-fade-in"
         />
+        <span>Ordinary Earthling</span>
         <span className="spacer" />
-        <div className="center animate-fade-in">
-          Ordinary Indonesian,
-          <br />
-          Helping <a href="https://www.agoda.com/">Agoda</a> Pricing Engineering.
-        </div>
+        <ul className="animate-fade-in">
+          <li>
+            Helping <a href="https://www.agoda.com/">Agoda</a>
+          </li>
+          <li>Exploiting Silicon Workforce</li>
+          <li>Designing Monoloop for Agentic Workflow</li>
+        </ul>
       </div>
     </Layout>
   )

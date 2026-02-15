@@ -37,10 +37,19 @@ npm run prod
 # 3. Moves /public contents to /docs
 ```
 
+
 After building, commit and push the changes:
 
 ```bash
 git add .
 git commit -m "chore(site): release new version"
 git push
+```
+
+### 🚀 Monorepo Workflow
+
+If you are working from the root of the **Monorepo**, you can automate the build, commit, and push process:
+
+```bash
+make burubur.deploy
 ```
