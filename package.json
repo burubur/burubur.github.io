@@ -6,7 +6,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "NODE_OPTIONS=--openssl-legacy-provider gatsby build",
-    "prod": "NODE_OPTIONS=--openssl-legacy-provider gatsby clean && gatsby build && rm -rf docs && mkdir -p docs && cp -R public/ docs/ && echo burubur.com > docs/CNAME",
+    "prod": "NODE_OPTIONS=--openssl-legacy-provider gatsby clean && gatsby build && rm -rf docs && mkdir -p docs && cp -R public/ docs/",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
     "develop": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",

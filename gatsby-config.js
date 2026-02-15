@@ -26,7 +26,7 @@ module.exports = {
         defer: false,
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "burubur.com",
+        // cookieDomain: "burubur.com",
         enableWebVitalsTracking: true,
       },
     },
