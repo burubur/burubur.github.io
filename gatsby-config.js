@@ -15,19 +15,20 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "UA-203104994-1",
-        head: false,
-        anonymize: true,
-        respectDNT: true,
-        exclude: ["/preview/**", "/do-not-track/me/too/"],
-        pageTransitionDelay: 0,
-        defer: false,
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        // cookieDomain: "burubur.com",
-        enableWebVitalsTracking: true,
+        trackingIds: [
+          "G-7XF8J5J5J5",
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+          exclude: ["/preview/**", "/do-not-track/me/too/"],
+        },
       },
     },
     `gatsby-plugin-image`,
