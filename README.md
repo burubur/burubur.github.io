@@ -11,10 +11,6 @@ This repository is part of my personal monorepo.
 -   **Styling**: Custom CSS and React components
 -   **Hosting**: GitHub Pages (served from the `/docs` folder)
 
-## 🚀 Development
-
-### Development
-
 To work on the site directly with hot-reloading:
 
 1.  **Install dependencies**:
@@ -39,7 +35,6 @@ npm run prod
 # 1. Cleans cache
 # 2. Builds site to /public
 # 3. Moves /public contents to /docs
-# 4. Generates CNAME
 ```
 
 After building, commit and push the changes:
