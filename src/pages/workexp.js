@@ -14,6 +14,7 @@ export default function Portfolio() {
           <p className="portfolio-summary">
             {summary.totalYearsOfExperience}+ years of experience in software engineering
           </p>
+          <CalculateTenure startDate="2014-05-01" />
           <div className="resume-buttons">
             <Link to="/resume-print" target="_blank" className="view-resume-btn">
               👁️ View Resume
@@ -80,6 +81,42 @@ function ExperienceCard({ experience }) {
           </ul>
         </div>
       )}
+    </div>
+  )
+}
+
+function CalculateTenure({ startDate }) {
+  const start = new Date(startDate)
+  const now = new Date()
+
+  // Calculate difference
+  let years = now.getFullYear() - start.getFullYear()
+  let months = now.getMonth() - start.getMonth()
+  let days = now.getDate() - start.getDate()
+
+  // Adjust for negative days
+  if (days < 0) {
+    months--
+    // Get days in previous month
+    const prevMonthArgs = [now.getFullYear(), now.getMonth(), 0]
+    days += new Date(...prevMonthArgs).getDate()
+  }
+
+  // Adjust for negative months
+  if (months < 0) {
+    years--
+    months += 12
+  }
+
+  return (
+    <div className="tenure-stats" style={{ margin: "1rem 0", color: "#666" }}>
+      <p style={{ margin: 0, fontSize: "0.9rem" }}>
+        <strong>Start coding at:</strong> {startDate} to Today
+      </p>
+      <p style={{ margin: 0, fontSize: "0.9rem" }}>
+        <strong>Accumulated time:</strong> {years} Years {months} Months {days}{" "}
+        Days
+      </p>
     </div>
   )
 }
