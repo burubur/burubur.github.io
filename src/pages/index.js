@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout>
       <a
-        href="https://github.com/users/burubur/projects/1"
+        href="https://github.com/users/burubur/projects/11"
         target="blank"
         className="label"
       >
