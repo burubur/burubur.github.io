@@ -12,7 +12,7 @@ export default function Navbar() {
           <Link to="/blog">Blog</Link>
         </div>
         <div className="nav-menu-item">
-          <a href="https://www.youtube.com/burhanmubarok" target="blank">Video</a>
+          <a href="https://www.youtube.com/@burhanmubarok" target="blank">Video</a>
         </div>
         <div className="nav-menu-item">
           <Link to="/workexp">Work Experience</Link>
