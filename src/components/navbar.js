@@ -11,11 +11,16 @@ export default function Navbar() {
         <div className="nav-menu-item">
           <Link to="/blog">Blog</Link>
         </div>
+        {/* 
         <div className="nav-menu-item">
           <a href="https://www.youtube.com/@burhanmubarok" target="blank">Video</a>
+        </div> 
+        */}
+        <div className="nav-menu-item">
+          <Link to="/workexp">Experience</Link>
         </div>
         <div className="nav-menu-item">
-          <Link to="/workexp">Work Experience</Link>
+          <Link to="/portfolio">Portfolio</Link>
         </div>
         <div className="nav-menu-item">
           <Link to="/about">About</Link>
