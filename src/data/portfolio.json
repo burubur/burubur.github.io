@@ -1,0 +1,21 @@
+{
+    "summary": {
+        "title": "Portfolio",
+        "description": "A collection of personal and professional projects."
+    },
+    "projects": [
+        {
+            "id": "voicetyper",
+            "year": "2026",
+            "name": "Voicetyper",
+            "brief": "A minimalist voice typing tool and dictation service. Connects to robust speech-to-text APIs to provide fast, continuous typing directly into text editors and active windows.",
+            "url": "https://github.com/burubur/voicetyper",
+            "type": "Personal",
+            "techStack": [
+                "swift",
+                "whisper.cpp",
+                "macOS"
+            ]
+        }
+    ]
+}
