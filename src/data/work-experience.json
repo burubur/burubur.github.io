@@ -9,14 +9,16 @@
       "startDate": "2024-06",
       "endDate": null,
       "duration": "Jun 2024 - Present",
-      "description": "Rewriting Pricing Backend Service from Scala to Kotlin",
+      "description": "Rewriting Pricing Backend Service from Scala to Kotlin and Isolating CI/CD Setup",
       "projects": [
-        "Pricing Backend"
+        "CI Isolation",
+        "Flights Price Rate Service",
+        "Flights Price Campaign Service"
       ],
       "achievements": [
-        "Migrating of pricing backend microservices from Scala to Kotlin",
-        "Implementing modern Kotlin patterns and type-safe architecture for flights pricing rule engine",
-        "Maintaining system reliability during critical migration of production services"
+        "Migrated of Flights Pricing Campaign Service from Scala to Kotlin",
+        "Implemented modern Kotlin patterns and type-safe architecture for flights pricing campaign rule engine",
+        "Maintained system reliability during critical migration of production services"
       ],
       "current": true
     },
