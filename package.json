@@ -33,6 +33,12 @@
   "devDependencies": {
     "prettier": "2.0.5"
   },
+  "overrides": {
+    "shell-quote": "1.8.4"
+  },
+  "resolutions": {
+    "shell-quote": "1.8.4"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
