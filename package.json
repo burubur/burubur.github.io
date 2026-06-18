@@ -34,10 +34,30 @@
     "prettier": "2.0.5"
   },
   "overrides": {
-    "shell-quote": "1.8.4"
+    "@babel/plugin-transform-modules-systemjs": "7.29.7",
+    "axios": "1.18.0",
+    "fast-uri": "3.1.2",
+    "flatted": "3.4.2",
+    "lodash": "4.18.1",
+    "minimatch": "3.1.5",
+    "path-to-regexp": "0.1.13",
+    "picomatch": "2.3.2",
+    "shell-quote": "1.8.4",
+    "socket.io-parser": "4.2.6",
+    "tmp": "0.2.7"
   },
   "resolutions": {
-    "shell-quote": "1.8.4"
+    "@babel/plugin-transform-modules-systemjs": "7.29.7",
+    "axios": "1.18.0",
+    "fast-uri": "3.1.2",
+    "flatted": "3.4.2",
+    "lodash": "4.18.1",
+    "minimatch": "3.1.5",
+    "path-to-regexp": "0.1.13",
+    "picomatch": "2.3.2",
+    "shell-quote": "1.8.4",
+    "socket.io-parser": "4.2.6",
+    "tmp": "0.2.7"
   },
   "repository": {
     "type": "git",
