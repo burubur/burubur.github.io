@@ -19,17 +19,24 @@ burubur.github.io/
 │   │   │   └── diskstore-80887271afe56365c4438aae11730845.json  [config]
 │   │   ├── gatsby-plugin-page-creator/
 │   │   ├── gatsby-plugin-sharp/
-│   │   │   ├── diskstore-185d5c31517e0a5456c20d10dbae6846.json  [config]
-│   │   │   ├── diskstore-6711e3ab10adb2c3be9da92a68a6471d.json  [config]
-│   │   │   ├── diskstore-88a0c4d3d553f46a4e108f0ca53c483a.json  [config]
-│   │   │   ├── diskstore-9512b4bcb39dbc0f2eb67410e6729e46.json  [config]
-│   │   │   ├── diskstore-9903ac8c4809bb09cd55107239a98eda.json  [config]
-│   │   │   ├── diskstore-f2bf49b21ae3dbf1f4f13cc1ce110efc.json  [config]
-│   │   │   ├── diskstore-f475129f2716862e7a7b542cb686a7fd.json  [config]
-│   │   │   └── diskstore-fd787ed33b58df26e7876d29cb4cf824.json  [config]
 │   │   ├── gatsby-plugin-typescript/
 │   │   ├── gatsby-source-filesystem/
 │   │   ├── gatsby-transformer-remark/
+│   │   │   ├── diskstore-1507e50bfe3c4f7a691bb168bbe67320.json  [config]
+│   │   │   ├── diskstore-24365ebbc274f126b586ec363002f588.json  [config]
+│   │   │   ├── diskstore-4e35cba09c76f39605a2b8e161ff7153.json  [config]
+│   │   │   ├── diskstore-5f35120b0ecbc4e9fa78190e74c39cd8.json  [config]
+│   │   │   ├── diskstore-6157e8c5c0614f1945217aa507bcf676.json  [config]
+│   │   │   ├── diskstore-6e314ada2ab19ed9d8371c87b12cbc7d.json  [config]
+│   │   │   ├── diskstore-808e50ad0c9e6e070fddd2caf1fe33af.json  [config]
+│   │   │   ├── diskstore-80c20f5b3ff3617b11b3f2dc7ba31672.json  [config]
+│   │   │   ├── diskstore-a27eddc5b06b48992f8afc8b0739a74b.json  [config]
+│   │   │   ├── diskstore-cae3d960c214b1b320247b20083c0cad.json  [config]
+│   │   │   ├── diskstore-cae8cefb5fcaba051f723e0096aa7f4c.json  [config]
+│   │   │   ├── diskstore-db0796acf0df51140360fe9fd8b0ae40.json  [config]
+│   │   │   ├── diskstore-e421ff13035d90a388df520cc6f964d8.json  [config]
+│   │   │   ├── diskstore-f20b8c380abb98d15c7a073034db2c3b.json  [config]
+│   │   │   └── diskstore-fdf3529dcdc6c6d8fa5a4db0dae0a42f.json  [config]
 │   │   ├── gatsby-transformer-sharp/
 │   │   ├── internal-data-bridge/
 │   │   ├── load-babel-config/
@@ -134,11 +141,19 @@ burubur.github.io/
 │   │   └── manifest.json  [config]
 │   ├── json/
 │   │   ├── _.json  [config]
+│   │   ├── _404_.json  [config]
 │   │   ├── _404.html.json  [config]
 │   │   ├── _about_.json  [config]
 │   │   ├── _blog_.json  [config]
+│   │   ├── _blog_entropy.json  [config]
+│   │   ├── _blog_iqra.json  [config]
+│   │   ├── _blog_monoloop.json  [config]
+│   │   ├── _blog_space.json  [config]
+│   │   ├── _blog_time.json  [config]
 │   │   ├── _dev-404-page_.json  [config]
-│   │   └── _portfolio_.json  [config]
+│   │   ├── _portfolio_.json  [config]
+│   │   ├── _resume-print_.json  [config]
+│   │   └── _workexp_.json  [config]
 │   ├── loading-indicator/
 │   │   ├── index.js
 │   │   ├── indicator.js
@@ -274,6 +289,7 @@ burubur.github.io/
 │   │   │   ├── 7bb0b22e9d42faf9443af562baae9ff42b077aab8e95946e1e04d71c197d3b07.json.gz
 │   │   │   ├── 7da2a4e81f6b6a2a58b3ca3544cbe6a674503e89aeab8d6240825e75715931d4.json.gz
 │   │   │   ├── 7db54617b46b09a70a15525225b417221a7077ad4b023bd950a1e7d798fe9b5b.json.gz
+│   │   │   ├── 7e068528f2864b6f539e57f87b89811883ed09bcb8e125d6024387bba2b3b61d.json.gz
 │   │   │   ├── 805e052c86e89740776299e8ece52b2d56b04133d6d4e1655815b1ac245d449d.json.gz
 │   │   │   ├── 8194bad8b4a8f2cd1ef313050287cad1a140489c6a00ab8cc9f67a9ad0cca22d.json.gz
 │   │   │   ├── 82d9493e6174799cb2bc5bf69cedb32ab0f6c2e0120ceaa469c74bdadd854228.json.gz
@@ -328,6 +344,7 @@ burubur.github.io/
 │   │   │   ├── b294861d4dde99e2fd0dc162a796ba92e59b53cbb9f1c10df440e8ae567cf6a2.json.gz
 │   │   │   ├── b2a55bb4dc0ce7d9e223b3706d5375464dff7ada33994e78c23e275c4874164b.json.gz
 │   │   │   ├── b38a546d6c4c1ebdd5edd351f81293d8d2478525591fd71b6498641a03b3341c.json.gz
+│   │   │   ├── b3d074c40d6f5da5b4848bbfcd7346cbf40d58b0a28de683cff5662c11e51804.json.gz
 │   │   │   ├── b4f1d727531bba0452ace30d81ec118a7660205fb01e0aae1dd4441637abd334.json.gz
 │   │   │   ├── b60b4ab2f487628e3e20761fbfa3641da3707b4aeaca31c6751e5571605c1925.json.gz
 │   │   │   ├── b819ec49bcf1f1bd6d279d7a3a7d98abc5cd184e5c2e915b706cdb3d36524d5f.json.gz
@@ -352,11 +369,13 @@ burubur.github.io/
 │   │   │   ├── d29005fd1c27685217720dc1011ed7b2c684e1addb017528cbf309e281547b9f.json.gz
 │   │   │   ├── d2b49331f5eae96ec6605eb9a60435941d0f1ebe30334783af938cb374242fbd.json.gz
 │   │   │   ├── d671dbc9a87f03e13d7b6da42be838592aaa061d9d472d3492ac6d23defedcea.json.gz
+│   │   │   ├── d694b433a8be99db03c3ddd1b3abc5e312ad090a00ff80e73907ace0ba3897c5.json.gz
 │   │   │   ├── d6ffd3837cb0a02d67c020bf5031c7f1fad1d0e8abd97bd735c864f2d95529d1.json.gz
 │   │   │   ├── dced0d001736712c4cdece9a99812b033955fb7cb42b1b4c3e11b4629fa568cb.json.gz
 │   │   │   ├── dee7175ff92cebdabed5c683cfe85608bfaaece6e796d8284951df7c34905c8d.json.gz
 │   │   │   ├── e117873ca4232b59c4f1adf5b96a806b1eb442134a6af657ce60020c99dac9ea.json.gz
 │   │   │   ├── e445c9b187efd0b64e92415efdbc970d783e500af7a23700a2f2ec8a76e0eca4.json.gz
+│   │   │   ├── e756d678a1ede8aadb5e5bf3381b624afe7a552620025a02ce3ccc47351a3ba5.json.gz
 │   │   │   ├── e788626a8f75d1aff7b1cb88becc4bf33cb1236a6ac3fd6f7ee6b57bd32a99cf.json.gz
 │   │   │   ├── e79c97f306fda692f5d0d3f2edb08c81007379f4434ee0431ee57559d73ee2d7.json.gz
 │   │   │   ├── e8682fce65ece9a4fcebb41964ad807ad4bd9764ac7544b6a73ea38a8d7c3858.json.gz
@@ -383,21 +402,28 @@ burubur.github.io/
 │   │   │   └── ffcbc774f1fa4ea50858c7ac22696619f37bb0d6ae6029a1e595ff6f282750d7.json.gz
 │   │   ├── stage-build-html/
 │   │   │   ├── 0.pack
-│   │   │   └── index.pack
+│   │   │   ├── index.pack
+│   │   │   └── index.pack.old
 │   │   ├── stage-build-javascript/
 │   │   │   ├── 0.pack
-│   │   │   └── index.pack
+│   │   │   ├── index.pack
+│   │   │   └── index.pack.old
 │   │   ├── stage-develop/
 │   │   │   ├── 0.pack
 │   │   │   ├── 1.pack
 │   │   │   ├── 2.pack
 │   │   │   ├── 3.pack
 │   │   │   ├── 4.pack
+│   │   │   ├── 5.pack
+│   │   │   ├── 6.pack
+│   │   │   ├── 7.pack
+│   │   │   ├── 8.pack
 │   │   │   ├── index.pack
 │   │   │   └── index.pack.old
 │   │   └── stage-develop-html/
 │   │       ├── 0.pack
-│   │       └── index.pack
+│   │       ├── index.pack
+│   │       └── index.pack.old
 │   ├── .eslintrc.json  [config]
 │   ├── api-runner-browser-plugins.js
 │   ├── api-runner-browser.js
@@ -444,7 +470,12 @@ burubur.github.io/
 │   ├── static-entry.js
 │   ├── strip-prefix.js
 │   ├── sync-requires.js
-│   └── test-require-error.js
+│   ├── test-require-error.js
+│   ├── tmp-61560-6GwRPBhq1sf1
+│   └── tmp-61560-e67va42KErt1
+├── .github/
+│   └── workflows/
+│       └── pages.yml
 ├── .vscode/
 │   └── settings.json  [config]
 ├── 404/
@@ -669,14 +700,22 @@ burubur.github.io/
 │   ├── component---src-pages-404-js-bf33c55e7288812b86b4.js.map
 │   ├── component---src-pages-about-js-0f2481a599d056dc3055.js
 │   ├── component---src-pages-about-js-0f2481a599d056dc3055.js.map
+│   ├── component---src-pages-about-js-93eb3f146ff2015eee4a.js
+│   ├── component---src-pages-about-js-93eb3f146ff2015eee4a.js.map
 │   ├── component---src-pages-blog-js-768cb1185286f50a70e4.js
 │   ├── component---src-pages-blog-js-768cb1185286f50a70e4.js.map
 │   ├── component---src-pages-index-js-58cdf011ab461024980d.js
 │   ├── component---src-pages-index-js-58cdf011ab461024980d.js.map
+│   ├── component---src-pages-portfolio-js-b59b52bd9fb6fbe0d5c2.js
+│   ├── component---src-pages-portfolio-js-b59b52bd9fb6fbe0d5c2.js.map
 │   ├── component---src-pages-portfolio-js-c6a79271e02f7e8b1d87.js
 │   ├── component---src-pages-portfolio-js-c6a79271e02f7e8b1d87.js.map
+│   ├── component---src-pages-resume-print-js-d38830721936f3772a95.js
+│   ├── component---src-pages-resume-print-js-d38830721936f3772a95.js.map
 │   ├── component---src-pages-resume-print-js-fce979bb8922b5463e60.js
 │   ├── component---src-pages-resume-print-js-fce979bb8922b5463e60.js.map
+│   ├── component---src-pages-workexp-js-4826ecf14bf2de27314d.js
+│   ├── component---src-pages-workexp-js-4826ecf14bf2de27314d.js.map
 │   ├── component---src-pages-workexp-js-7a80cd33d781c79b3411.js
 │   ├── component---src-pages-workexp-js-7a80cd33d781c79b3411.js.map
 │   ├── component---src-templates-blog-template-js-7d8937d83acbdac2383b.js
@@ -690,6 +729,10 @@ burubur.github.io/
 │   ├── render-page.js.map
 │   ├── resume.pdf
 │   ├── styles.68cae57de722ea0d6207.css
+│   ├── webpack-runtime-1c3cce87a856fe58c9ae.js
+│   ├── webpack-runtime-1c3cce87a856fe58c9ae.js.map
+│   ├── webpack-runtime-2aacf5ccdfb032ec1f7a.js
+│   ├── webpack-runtime-2aacf5ccdfb032ec1f7a.js.map
 │   ├── webpack-runtime-6e5880db11785dbe2586.js
 │   ├── webpack-runtime-6e5880db11785dbe2586.js.map
 │   └── webpack.stats.json  [config]
