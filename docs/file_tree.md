@@ -136,6 +136,7 @@ burubur.github.io/
 │   │   ├── _.json  [config]
 │   │   ├── _404.html.json  [config]
 │   │   ├── _about_.json  [config]
+│   │   ├── _blog_.json  [config]
 │   │   ├── _dev-404-page_.json  [config]
 │   │   └── _portfolio_.json  [config]
 │   ├── loading-indicator/
@@ -391,6 +392,7 @@ burubur.github.io/
 │   │   │   ├── 1.pack
 │   │   │   ├── 2.pack
 │   │   │   ├── 3.pack
+│   │   │   ├── 4.pack
 │   │   │   ├── index.pack
 │   │   │   └── index.pack.old
 │   │   └── stage-develop-html/
@@ -728,6 +730,7 @@ burubur.github.io/
 ├── static/
 │   ├── favicon.ico
 │   └── resume.pdf
+├── tmp/
 ├── .gitignore
 ├── .prettierignore
 ├── .prettierrc
