@@ -12,7 +12,7 @@
             "url": "https://github.com/burubur/voicetyper",
             "type": "Personal",
             "techStack": [
-                "swift",
+                "Swift",
                 "whisper.cpp",
                 "macOS"
             ]
@@ -27,8 +27,9 @@
             "techStack": [
                 "Kotlin",
                 "Scala",
-                "Backend Services",
-                "Pricing Systems"
+                "MSSQL",
+                "Couchbase",
+                "Hollow"
             ]
         },
         {
@@ -39,9 +40,11 @@
             "url": "https://www.gotocompany.com/",
             "type": "Company",
             "techStack": [
-                "Microservices",
-                "Backend",
-                "Transport Services"
+                "Ruby on Rails",
+                "Golang",
+                "Google Cloud Spanner",
+                "Google Cloud Memorystore",
+                "Redis"
             ]
         },
         {
@@ -52,9 +55,9 @@
             "url": "https://www.gotocompany.com/",
             "type": "Company",
             "techStack": [
-                "Microservices",
-                "Backend",
-                "Product Features"
+                "Golang",
+                "PostgreSQL",
+                "Kafka"
             ]
         },
         {
@@ -65,9 +68,10 @@
             "url": "https://www.gotocompany.com/",
             "type": "Company",
             "techStack": [
-                "Microservices",
-                "Public Transport",
-                "Integration Services"
+                "Golang",
+                "PostgreSQL",
+                "Kafka",
+                "REST APIs"
             ]
         },
         {
@@ -78,9 +82,9 @@
             "url": "https://www.gotocompany.com/",
             "type": "Company",
             "techStack": [
-                "Backend",
-                "Microservices",
-                "Location Services"
+                "Clojure",
+                "PostgreSQL",
+                "Redis"
             ]
         },
         {
@@ -91,10 +95,11 @@
             "url": "https://www.grab.com/",
             "type": "Company",
             "techStack": [
+                "Golang",
                 "Kafka",
                 "Microservices",
-                "Digital Goods",
-                "Bill Payments"
+                "MySQL",
+                "Redis"
             ]
         },
         {
@@ -105,9 +110,11 @@
             "url": "https://www.grab.com/",
             "type": "Company",
             "techStack": [
+                "Golang",
                 "Kafka",
                 "Event-Driven Architecture",
-                "Payment Integration"
+                "External API Integration",
+                "Idempotent Consumers"
             ]
         },
         {
@@ -119,8 +126,9 @@
             "type": "Company",
             "techStack": [
                 "Kafka",
-                "Finance Systems",
-                "Internal Tools"
+                "Event Sourcing",
+                "Batch Reconciliation",
+                "Internal Web Application"
             ]
         },
         {
@@ -131,9 +139,10 @@
             "url": "https://www.gotocompany.com/",
             "type": "Company",
             "techStack": [
-                "Fraud Detection",
-                "API Integration",
-                "Daemon"
+                "Sift Science API",
+                "Daemon",
+                "Fraud Analytics",
+                "Background Processing"
             ]
         },
         {
@@ -145,9 +154,11 @@
             "type": "Company",
             "techStack": [
                 "C#",
+                "ASP.NET",
                 "SignalR",
-                "Video Streaming",
-                "E-learning"
+                "Video Streaming API",
+                "REST APIs",
+                "SQL Server"
             ]
         },
         {
@@ -159,8 +170,9 @@
             "type": "Company",
             "techStack": [
                 "Adobe ColdFusion",
-                "HRIS",
-                "ERP Implementation"
+                "SQL",
+                "Server-Side Web Modules",
+                "Report Customization"
             ]
         }
     ]
