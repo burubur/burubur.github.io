@@ -58,6 +58,9 @@ typings/
 .cache/
 public
 
+# Local ASCII diagram history
+.ascii_history/
+
 # Mac files
 .DS_Store
 

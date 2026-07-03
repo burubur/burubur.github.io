@@ -53,7 +53,7 @@ function ProjectCard({ project }) {
                 <div className="experience-title-section">
                     <h2 className="experience-title" style={{ margin: 0, display: "flex", alignItems: "center", gap: "0.5rem" }}>
                         {url ? (
-                            <a href={url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+                            <a href={url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>
                                 {name}
                             </a>
                         ) : (
@@ -62,6 +62,7 @@ function ProjectCard({ project }) {
                         <span style={{ color: "#888", fontSize: "0.9rem", fontWeight: "normal" }}>({year})</span>
                     </h2>
                 </div>
+                <br />
                 <div>
                     <span style={typeBadgeStyle}>{type}</span>
                 </div>
