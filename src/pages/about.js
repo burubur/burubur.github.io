@@ -15,10 +15,10 @@ export default function About() {
         <span className="spacer" />
         <ul className="animate-fade-in">
           <li>
-            Helping <a href="https://www.agoda.com/">Agoda</a>
+            Helping <a href="https://www.agoda.com/">Agoda Engineering</a>
           </li>
-          <li>Exploiting Silicon Workforce</li>
-          <li>Designing Monoloop for Agentic Workflow</li>
+          <li>Exploiting Silicon Based Workforce</li>
+          <li>Designing Qorin as an Agentic Second Brained Assistant</li>
         </ul>
       </div>
     </Layout>
