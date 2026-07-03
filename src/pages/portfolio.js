@@ -31,6 +31,8 @@ function ProjectCard({ project }) {
         brief,
         url,
         type,
+        image,
+        imageAlt,
         techStack
     } = project
 
@@ -48,36 +50,46 @@ function ProjectCard({ project }) {
     }
 
     return (
-        <div className="experience-card" style={{ marginBottom: "1.5rem", padding: "1.5rem", border: "1px solid #eaeaea", borderRadius: "8px" }}>
-            <div className="experience-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "0.5rem" }}>
-                <div className="experience-title-section">
-                    <h2 className="experience-title" style={{ margin: 0, display: "flex", alignItems: "center", gap: "0.5rem" }}>
-                        {url ? (
-                            <a href={url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>
-                                {name}
-                            </a>
-                        ) : (
-                            name
-                        )}
-                        <span style={{ color: "#888", fontSize: "0.9rem", fontWeight: "normal" }}>({year})</span>
-                    </h2>
+        <div className={`experience-card portfolio-card${image ? " portfolio-card-with-image" : ""}`} style={{ marginBottom: "1.5rem", padding: "1.5rem", border: "1px solid #eaeaea", borderRadius: "8px" }}>
+            <div className="portfolio-card-body">
+                <div className="experience-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "0.5rem" }}>
+                    <div className="experience-title-section">
+                        <h2 className="experience-title" style={{ margin: 0, display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                            {url ? (
+                                <a href={url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>
+                                    {name}
+                                </a>
+                            ) : (
+                                name
+                            )}
+                            <span style={{ color: "#888", fontSize: "0.9rem", fontWeight: "normal" }}>({year})</span>
+                        </h2>
+                    </div>
+                    <br />
+                    <div>
+                        <span style={typeBadgeStyle}>{type}</span>
+                    </div>
                 </div>
-                <br />
-                <div>
-                    <span style={typeBadgeStyle}>{type}</span>
-                </div>
+                <p className="experience-description" style={{ marginTop: "0.5rem", lineHeight: 1.6, color: "#444" }}>
+                    {brief}
+                </p>
+                {techStack && techStack.length > 0 && (
+                    <div style={{ marginTop: "1rem", display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
+                        {techStack.map((tech, idx) => (
+                            <span key={idx} style={{ padding: "0.2rem 0.5rem", backgroundColor: "#f3f4f6", color: "#374151", borderRadius: "12px", fontSize: "0.8rem", fontWeight: "500" }}>
+                                {tech}
+                            </span>
+                        ))}
+                    </div>
+                )}
             </div>
-            <p className="experience-description" style={{ marginTop: "0.5rem", lineHeight: 1.6, color: "#444" }}>
-                {brief}
-            </p>
-            {techStack && techStack.length > 0 && (
-                <div style={{ marginTop: "1rem", display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
-                    {techStack.map((tech, idx) => (
-                        <span key={idx} style={{ padding: "0.2rem 0.5rem", backgroundColor: "#f3f4f6", color: "#374151", borderRadius: "12px", fontSize: "0.8rem", fontWeight: "500" }}>
-                            {tech}
-                        </span>
-                    ))}
-                </div>
+            {image && (
+                <img
+                    className="portfolio-card-image"
+                    src={image}
+                    alt={imageAlt || `${name} preview`}
+                    loading="lazy"
+                />
             )}
         </div>
     )

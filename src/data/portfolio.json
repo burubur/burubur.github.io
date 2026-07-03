@@ -11,6 +11,8 @@
             "brief": "A minimalist voice typing tool and dictation service. Connects to robust speech-to-text APIs to provide fast, continuous typing directly into text editors and active windows.",
             "url": "https://github.com/burubur/voicetyper",
             "type": "Personal",
+            "image": "/portfolio/voicetyper.svg",
+            "imageAlt": "Voicetyper app preview",
             "techStack": [
                 "Swift",
                 "whisper.cpp",

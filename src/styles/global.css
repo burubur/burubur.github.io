@@ -226,6 +226,39 @@ a {
   margin-bottom: 20px;
 }
 
+.portfolio-card-with-image {
+  align-items: center;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: minmax(0, 1fr) 220px;
+}
+
+.portfolio-card-body {
+  min-width: 0;
+}
+
+.portfolio-card-image {
+  aspect-ratio: 13 / 9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  display: block;
+  justify-self: end;
+  max-width: 220px;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .portfolio-card-with-image {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-card-image {
+    justify-self: stretch;
+    max-width: none;
+  }
+}
+
 .resume-buttons {
   display: flex;
   gap: 12px;
