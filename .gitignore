@@ -61,6 +61,9 @@ public
 # Local ASCII diagram history
 .ascii_history/
 
+# Generated repository file tree
+docs/file_tree.md
+
 # Mac files
 .DS_Store
 
