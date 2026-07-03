@@ -7,7 +7,7 @@ export default function About() {
     <Layout>
       <div className="body">
         <StaticImage
-          src="../images/photo.jpg"
+          src="../images/photo.JPG"
           alt="photo"
           className="photo-profile animate-fade-in"
         />
