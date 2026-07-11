@@ -16,7 +16,7 @@ export default function Portfolio() {
           </p>
           <CalculateTenure startDate="2014-05-01" />
           <div className="resume-buttons">
-            <Link to="/resume-print" target="_blank" className="view-resume-btn">
+            <Link to="/resume-prints" target="_blank" className="view-resume-btn">
               👁️ View Resume
             </Link>
             <a href="/resume.pdf" download="Burhan_Mubarok_Resume.pdf" className="download-resume-btn">

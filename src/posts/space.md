@@ -1,5 +1,5 @@
 ---
-slug: "/blog/space"
+slug: "/blogs/space"
 date: "2020-10-09"
 title: "Space"
 ---

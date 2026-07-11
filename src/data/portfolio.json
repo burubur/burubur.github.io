@@ -11,7 +11,7 @@
             "brief": "A minimalist voice typing tool and dictation service. Connects to robust speech-to-text APIs to provide fast, continuous typing directly into text editors and active windows.",
             "url": "https://github.com/burubur/voicetyper",
             "type": "Personal",
-            "image": "/portfolio/voicetyper.svg",
+            "image": "/portfolios/voicetyper.svg",
             "imageAlt": "Voicetyper app preview",
             "techStack": [
                 "Swift",
@@ -32,7 +32,9 @@
                 "MSSQL",
                 "Couchbase",
                 "Hollow"
-            ]
+            ],
+            "image": "/portfolios/pricing-backend.svg",
+            "imageAlt": "Pricing backend service architecture preview"
         },
         {
             "id": "pickup-dropoff-aggregation",
@@ -47,7 +49,9 @@
                 "Google Cloud Spanner",
                 "Google Cloud Memorystore",
                 "Redis"
-            ]
+            ],
+            "image": "/portfolios/pickup-dropoff-aggregation.svg",
+            "imageAlt": "Pickup and drop off aggregation service preview"
         },
         {
             "id": "booking-management",
@@ -60,7 +64,9 @@
                 "Golang",
                 "PostgreSQL",
                 "Kafka"
-            ]
+            ],
+            "image": "/portfolios/booking-management.svg",
+            "imageAlt": "Booking management services preview"
         },
         {
             "id": "gotransit",
@@ -74,7 +80,9 @@
                 "PostgreSQL",
                 "Kafka",
                 "REST APIs"
-            ]
+            ],
+            "image": "/portfolios/gotransit.svg",
+            "imageAlt": "GoTransit train integration preview"
         },
         {
             "id": "location-intelligence",
@@ -87,7 +95,9 @@
                 "Clojure",
                 "PostgreSQL",
                 "Redis"
-            ]
+            ],
+            "image": "/portfolios/location-intelligence.svg",
+            "imageAlt": "Location intelligence services preview"
         },
         {
             "id": "digital-goods-platform",
@@ -102,7 +112,9 @@
                 "Microservices",
                 "MySQL",
                 "Redis"
-            ]
+            ],
+            "image": "/portfolios/digital-goods-platform.svg",
+            "imageAlt": "Digital goods platform preview"
         },
         {
             "id": "billpayment-integration",
@@ -117,7 +129,9 @@
                 "Event-Driven Architecture",
                 "External API Integration",
                 "Idempotent Consumers"
-            ]
+            ],
+            "image": "/portfolios/billpayment-integration.svg",
+            "imageAlt": "Bill payment integration preview"
         },
         {
             "id": "reconciliation-engine",
@@ -131,7 +145,9 @@
                 "Event Sourcing",
                 "Batch Reconciliation",
                 "Internal Web Application"
-            ]
+            ],
+            "image": "/portfolios/reconciliation-engine.svg",
+            "imageAlt": "Dynamic reconciliation engine preview"
         },
         {
             "id": "fraud-management-system",
@@ -145,7 +161,9 @@
                 "Daemon",
                 "Fraud Analytics",
                 "Background Processing"
-            ]
+            ],
+            "image": "/portfolios/fraud-management-system.svg",
+            "imageAlt": "Fraud management system preview"
         },
         {
             "id": "enterprise-csharp-platforms",
@@ -161,7 +179,9 @@
                 "Video Streaming API",
                 "REST APIs",
                 "SQL Server"
-            ]
+            ],
+            "image": "/portfolios/enterprise-csharp-platforms.svg",
+            "imageAlt": "Enterprise C sharp applications preview"
         },
         {
             "id": "sunfish-hris",
@@ -175,7 +195,9 @@
                 "SQL",
                 "Server-Side Web Modules",
                 "Report Customization"
-            ]
+            ],
+            "image": "/portfolios/sunfish-hris.webp",
+            "imageAlt": "SunFish HRIS product hero image"
         }
     ]
 }

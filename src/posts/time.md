@@ -1,5 +1,5 @@
 ---
-slug: "/blog/time"
+slug: "/blogs/time"
 date: "2020-08-14"
 title: "Time"
 ---

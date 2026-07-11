@@ -9,7 +9,7 @@ export default function Navbar() {
       </div>
       <div className="nav-menu">
         <div className="nav-menu-item">
-          <Link to="/blog">Blog</Link>
+          <Link to="/blogs">Blogs</Link>
         </div>
         {/* 
         <div className="nav-menu-item">
@@ -17,10 +17,10 @@ export default function Navbar() {
         </div> 
         */}
         <div className="nav-menu-item">
-          <Link to="/workexp">Experience</Link>
+          <Link to="/experiences">Experiences</Link>
         </div>
         <div className="nav-menu-item">
-          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/portfolios">Portfolios</Link>
         </div>
         <div className="nav-menu-item">
           <Link to="/about">About</Link>

@@ -2,6 +2,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
   const blogPostTemplate = require.resolve(`./src/templates/blogTemplate.js`)
+  const portfolioTemplate = require.resolve(`./src/pages/portfolios.js`)
+  const portfolioData = require(`./src/data/portfolio.json`)
 
   const result = await graphql(`
     {
@@ -33,6 +35,16 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       context: {
         // additional data can be passed via context
         slug: node.frontmatter.slug,
+      },
+    })
+  })
+
+  portfolioData.projects.forEach((project) => {
+    createPage({
+      path: `/portfolios/view/${project.id}`,
+      component: portfolioTemplate,
+      context: {
+        selectedProjectId: project.id,
       },
     })
   })

@@ -1,5 +1,5 @@
 ---
-slug: "/blog/iqra"
+slug: "/blogs/iqra"
 date: "2020-08-12"
 title: "Iqra'"
 ---

@@ -1,5 +1,5 @@
 ---
-slug: "/blog/entropy"
+slug: "/blogs/entropy"
 date: "2026-02-15T09:00"
 title: "Entropy"
 ---
@@ -16,4 +16,4 @@ In software engineering, it manifests as the thermodynamic tax on every line of 
 
 2. To ship a feature, we burn cognitive energy. We extract focus from the human brain, but we also produce stress and burnout. The wear on the engineer is the price of the code.
 
-See also: [The Monoloop](/blog/monoloop)
+See also: [The Monoloop](/blogs/monoloop)

@@ -13,7 +13,7 @@ export const generateResumePDF = async () => {
   // Wait for iframe to load
   await new Promise((resolve) => {
     iframe.onload = resolve
-    iframe.src = "/resume-print"
+    iframe.src = "/resume-prints"
   })
 
   // Wait a bit for content to render
