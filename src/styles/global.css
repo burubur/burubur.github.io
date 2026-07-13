@@ -308,18 +308,18 @@ a {
 
 .portfolio-card-image {
   aspect-ratio: 13 / 9;
-  border: 1px solid #e2e8f0;
+  border: 0;
   border-radius: 8px;
   display: block;
   justify-self: end;
   max-width: 220px;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   width: 100%;
 }
 
 .portfolio-card-image-button:hover .portfolio-card-image,
 .portfolio-card-image-button:focus-visible .portfolio-card-image {
-  border-color: #94a3b8;
   box-shadow: 0 8px 20px rgba(15, 23, 42, 0.16);
 }
 
@@ -351,13 +351,14 @@ a {
 .portfolio-view-image {
   aspect-ratio: 21 / 8;
   background: #f8fafc;
-  border: 1px solid #e2e8f0;
+  border: 0;
   border-radius: 8px;
   display: block;
   flex-shrink: 0;
   margin-bottom: 16px;
   max-height: 220px;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   width: 100%;
 }
 
@@ -569,10 +570,11 @@ a {
 .portfolio-minimap-item img {
   aspect-ratio: 4 / 3;
   background: #f8fafc;
-  border: 1px solid #e2e8f0;
+  border: 0;
   border-radius: 6px;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   width: 100%;
 }
 

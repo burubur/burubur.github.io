@@ -81,8 +81,8 @@
                 "Kafka",
                 "REST APIs"
             ],
-            "image": "/portfolios/gotransit.svg",
-            "imageAlt": "GoTransit train integration preview"
+            "image": "/portfolios/gotransit.png",
+            "imageAlt": "GoTransit KRL journey flow"
         },
         {
             "id": "location-intelligence",
@@ -180,8 +180,8 @@
                 "REST APIs",
                 "SQL Server"
             ],
-            "image": "/portfolios/enterprise-csharp-platforms.svg",
-            "imageAlt": "Enterprise C sharp applications preview"
+            "image": "/portfolios/enterprise-csharp-platforms-transparent.png",
+            "imageAlt": "Enterprise C sharp applications portfolio image"
         },
         {
             "id": "sunfish-hris",
