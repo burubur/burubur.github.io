@@ -1,0 +1,62 @@
+[
+  {
+    "id": "FOUNDATION",
+    "label": "FOUNDATION & SITE",
+    "badge": "P01",
+    "minStep": 1,
+    "maxStep": 3,
+    "groupNo": 1,
+    "groupTitle": "FOUNDATION",
+    "groupName": "LAND PREPARATION, PITS & SUBGRADE"
+  },
+  {
+    "id": "SUB-STRUCTURE",
+    "label": "SUB STRUCTURE",
+    "badge": "P02",
+    "minStep": 4,
+    "maxStep": 4,
+    "groupNo": 2,
+    "groupTitle": "SUB STRUCTURE",
+    "groupName": "CONCRETE PEDESTALS"
+  },
+  {
+    "id": "MECHANICS",
+    "label": "MECHANICS",
+    "badge": "P03",
+    "minStep": 5,
+    "maxStep": 5,
+    "groupNo": 3,
+    "groupTitle": "MECHANICS",
+    "groupName": "SUB-FLOOR WARING CONVEYOR"
+  },
+  {
+    "id": "STRUCTURE",
+    "label": "STRUCTURE & PENS",
+    "badge": "P04",
+    "minStep": 6,
+    "maxStep": 16,
+    "groupNo": 4,
+    "groupTitle": "STRUCTURE",
+    "groupName": "FRAMING, FLOORING, PENS & ACCESS"
+  },
+  {
+    "id": "ROOF",
+    "label": "ROOF SYSTEM",
+    "badge": "P05",
+    "minStep": 18,
+    "maxStep": 19,
+    "groupNo": 5,
+    "groupTitle": "ROOF",
+    "groupName": "ROOF FRAMING & COVER"
+  },
+  {
+    "id": "UTILITIES",
+    "label": "UTILITIES & CCTV",
+    "badge": "P06",
+    "minStep": 17,
+    "maxStep": 21,
+    "groupNo": 6,
+    "groupTitle": "ELECTRICITY & UTILITIES",
+    "groupName": "CCTV, SOLAR PANELS & LIGHTING"
+  }
+]

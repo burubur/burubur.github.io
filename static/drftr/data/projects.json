@@ -1,0 +1,18 @@
+[
+  {
+    "id": "integratedfarming",
+    "name": "Integrated Farming Barn",
+    "subtitle": "Modern Staged Livestock Barn 44m x 6m",
+    "badge": "FARM",
+    "icon": "🌾",
+    "imageDir": "integratedfarming/hardware-cad/revised/generated-pngs"
+  },
+  {
+    "id": "masjid",
+    "name": "Masjid Nurul Falah Sukatani",
+    "subtitle": "Modern Limasan Mosque 20m x 25m Site (224m² Footprint)",
+    "badge": "MOSQUE",
+    "icon": "🕌",
+    "imageDir": "masjid/assets/generated-pngs"
+  }
+]

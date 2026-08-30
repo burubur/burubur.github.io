@@ -1,0 +1,62 @@
+[
+  {
+    "id": "TANAH",
+    "label": "SITE PREPARATION & EARTHWORK",
+    "badge": "M01",
+    "minStep": 1,
+    "maxStep": 1,
+    "groupNo": 1,
+    "groupTitle": "PHASE 1: SITE PREPARATION & EARTHWORK",
+    "groupName": "SITE GEODESY 369M², BATTER BOARDS & QIBLA CALIBRATION"
+  },
+  {
+    "id": "PONDASI",
+    "label": "EXCAVATION & FOOTING FOUNDATION",
+    "badge": "M02",
+    "minStep": 2,
+    "maxStep": 3,
+    "groupNo": 2,
+    "groupTitle": "PHASE 2: EXCAVATION & FOOTING FOUNDATION",
+    "groupName": "HEAVY EXCAVATION 1.5M, FOOTPLAT 1X1M & RETAINING WALL"
+  },
+  {
+    "id": "STRUKTUR",
+    "label": "MAIN BUILDING STRUCTURE",
+    "badge": "M03",
+    "minStep": 4,
+    "maxStep": 7,
+    "groupNo": 3,
+    "groupTitle": "PHASE 3: MAIN BUILDING STRUCTURE",
+    "groupName": "FLOOR SLAB, COLUMNS, RING BEAMS, MASONRY & PARTITIONS"
+  },
+  {
+    "id": "ATAP",
+    "label": "LIMASAN ROOF & DOME",
+    "badge": "M04",
+    "minStep": 8,
+    "maxStep": 10,
+    "groupNo": 4,
+    "groupTitle": "PHASE 4: ROOF TRUSS & DOME",
+    "groupName": "LIMASAN TRUSS, GLAZED TILES & ENAMEL ONION DOME"
+  },
+  {
+    "id": "SANITASI",
+    "label": "SANITATION & ABLUTION AREA",
+    "badge": "M05",
+    "minStep": 11,
+    "maxStep": 12,
+    "groupNo": 5,
+    "groupTitle": "PHASE 5: SANITATION & ABLUTION PAVILION",
+    "groupName": "MALE & FEMALE ABLUTION PAVILION, SANITARY & TOILETS"
+  },
+  {
+    "id": "UTILITIES",
+    "label": "MEP, ACOUSTICS & PRAYER INTERIOR",
+    "badge": "M06",
+    "minStep": 13,
+    "maxStep": 16,
+    "groupNo": 6,
+    "groupTitle": "PHASE 6: MEP, ACOUSTICS & INTERIOR",
+    "groupName": "VERANDA, MINARET TOWER, SOUND ACOUSTICS & PRAYER ROWS"
+  }
+]

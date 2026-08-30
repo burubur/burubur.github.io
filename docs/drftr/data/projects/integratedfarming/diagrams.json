@@ -1,0 +1,284 @@
+{
+  "00_master_assembly_1_east.png": {
+    "title": "00 Master: East Elevation",
+    "category": "Master Assembly",
+    "desc": "East Elevation: Loading Ramp & Cyan Disinfectant Footbath Basin",
+    "estimatedDuration": "14 - 21 Work Days",
+    "materials": [
+      { "name": "Site Clearing & Earthwork", "volume": "1 Contract", "unitPrice": 200000, "qty": 1 },
+      { "name": "Total Material Purchase East Wing", "volume": "264 m² Land", "unitPrice": 1050000, "qty": 264 },
+      { "name": "Total Labor & Civil Installation", "volume": "264 m² Land", "unitPrice": 200000, "qty": 264 }
+    ]
+  },
+  "00_master_assembly_2_south.png": {
+    "title": "00 Master: South Elevation",
+    "category": "Master Assembly",
+    "desc": "South Elevation: 33m Long Side & Feed Wall Partitions",
+    "estimatedDuration": "14 - 21 Work Days",
+    "materials": [
+      { "name": "Site Clearing & Earthwork", "volume": "1 Contract", "unitPrice": 200000, "qty": 1 },
+      { "name": "Total Material Purchase South Wing", "volume": "264 m² Land", "unitPrice": 1050000, "qty": 264 },
+      { "name": "Total Labor & Civil Installation", "volume": "264 m² Land", "unitPrice": 200000, "qty": 264 }
+    ]
+  },
+  "00_master_assembly_3_west.png": {
+    "title": "00 Master: West Elevation",
+    "category": "Master Assembly",
+    "desc": "West Elevation: Access Stairs, Main Gate & 3 Bio-POC Urine Pits",
+    "estimatedDuration": "14 - 21 Work Days",
+    "materials": [
+      { "name": "Site Clearing & Earthwork", "volume": "1 Contract", "unitPrice": 200000, "qty": 1 },
+      { "name": "Total Material Purchase West Wing", "volume": "264 m² Land", "unitPrice": 1050000, "qty": 264 },
+      { "name": "Total Labor & Civil Installation", "volume": "264 m² Land", "unitPrice": 200000, "qty": 264 }
+    ]
+  },
+  "00_master_assembly_4_north.png": {
+    "title": "00 Master: North Elevation",
+    "category": "Master Assembly",
+    "desc": "North Elevation: 33m Long Side & Outer Feed Wall",
+    "estimatedDuration": "14 - 21 Work Days",
+    "materials": [
+      { "name": "Site Clearing & Earthwork", "volume": "1 Contract", "unitPrice": 200000, "qty": 1 },
+      { "name": "Total Material Purchase North Wing", "volume": "264 m² Land", "unitPrice": 1050000, "qty": 264 },
+      { "name": "Total Labor & Civil Installation", "volume": "264 m² Land", "unitPrice": 200000, "qty": 264 }
+    ]
+  },
+  "00_master_assembly_5_iso.png": {
+    "title": "00 Master: Isometric View",
+    "category": "Master Assembly",
+    "desc": "Full Isometric Perspective of Complete 33m Sub-System",
+    "estimatedDuration": "14 - 21 Work Days",
+    "materials": [
+      { "name": "Site Clearing & Earthwork", "volume": "1 Contract", "unitPrice": 200000, "qty": 1 },
+      { "name": "Total Material Purchase Complete Barn", "volume": "264 m² Land", "unitPrice": 1050000, "qty": 264 },
+      { "name": "Total Labor & Civil Installation", "volume": "264 m² Land", "unitPrice": 200000, "qty": 264 }
+    ]
+  },
+  "01_land_green_slab_iso.png": {
+    "title": "Step 01: Land Green Slab",
+    "category": "Foundation",
+    "desc": "Solid Natural Green Grass Subgrade (44.0m x 6.0m x 264 m²)",
+    "estimatedDuration": "2 Work Days",
+    "materials": [
+      { "name": "Site Clearing & Debris Removal", "volume": "1 Contract", "unitPrice": 200000, "qty": 1 },
+      { "name": "Civil Earthwork & Land Leveling", "volume": "1 Contract", "unitPrice": 900000, "qty": 1 },
+      { "name": "Compacted Soil Fill & Solid Grass", "volume": "26.4 m³", "unitPrice": 0, "qty": 26.4 }
+    ]
+  },
+  "02_urine_and_kohe_storage_pits_iso.png": {
+    "title": "Step 02: Storage Pits",
+    "category": "Foundation",
+    "desc": "3 Arrayed Storage Pits (North-South: Urine 1m + Compost 2m + Urine 1m)",
+    "estimatedDuration": "3 Work Days",
+    "materials": [
+      { "name": "Storage Pits Ground Excavation", "volume": "36 m³", "unitPrice": 150000, "qty": 36 },
+      { "name": "K-300 Waterproof Concrete + Aggregate", "volume": "36 m³", "unitPrice": 1100000, "qty": 36 },
+      { "name": "Concrete Casting & Formwork Labor", "volume": "1 Contract", "unitPrice": 6800000, "qty": 1 }
+    ]
+  },
+  "03_subgrade_slab_and_urine_gutters_iso.png": {
+    "title": "Step 03: Subgrade & Gutters",
+    "category": "Foundation",
+    "desc": "Subgrade Concrete Slab & Sloped U-Shape Urine Gutters",
+    "estimatedDuration": "4 Work Days",
+    "materials": [
+      { "name": "K-250 Concrete Subgrade Slab", "volume": "13.2 m³", "unitPrice": 950000, "qty": 13.2 },
+      { "name": "Precast U-Gutter Channel Installation", "volume": "66 m", "unitPrice": 180000, "qty": 66 },
+      { "name": "Plastering & Channel Slope Calibration", "volume": "1 Contract", "unitPrice": 2400000, "qty": 1 }
+    ]
+  },
+  "04_concrete_footplat_pedestals_iso.png": {
+    "title": "Step 04: Concrete Pedestals",
+    "category": "Sub-structure",
+    "desc": "24 Reinforced Concrete Pedestals Supporting Barn Columns (0.25m x 0.25m x 0.80m)",
+    "estimatedDuration": "3 Work Days",
+    "materials": [
+      { "name": "Reinforced Concrete Footplat Pedestals", "volume": "24 Units", "unitPrice": 350000, "qty": 24 },
+      { "name": "Pedestal Setting, Formwork & Casting", "volume": "24 Units", "unitPrice": 87500, "qty": 24 }
+    ]
+  },
+  "05_kohe_waring_conveyor_system_iso.png": {
+    "title": "Step 05: Kohe Conveyor",
+    "category": "Mechanics",
+    "desc": "Sub-Floor High Density Waring Mesh & Winch Rollers Conveyor",
+    "estimatedDuration": "4 Work Days",
+    "materials": [
+      { "name": "HDPE High-Density Waring Mesh", "volume": "2 Rolls (200m)", "unitPrice": 950000, "qty": 2 },
+      { "name": "Manual Winch Roller & Steel Wire Cable", "volume": "4 Sets", "unitPrice": 1625000, "qty": 4 },
+      { "name": "Winch & Wire Rope Installation Labor", "volume": "4 Sets", "unitPrice": 375000, "qty": 4 }
+    ]
+  },
+  "06_main_floor_beams_and_subframe_iso.png": {
+    "title": "Step 06: Floor Beams Subframe",
+    "category": "Structure",
+    "desc": "Main Floor Girders (8cm x 12cm) & Transverse Timber Joists",
+    "estimatedDuration": "3 Work Days",
+    "materials": [
+      { "name": "Main Timber Girders 8x12cm (Kruing)", "volume": "1.38 m³ (72 Pcs)", "unitPrice": 6500000, "qty": 1.38 },
+      { "name": "Carpenter Framing & Joinery Labor", "volume": "1 Contract", "unitPrice": 2200000, "qty": 1 }
+    ]
+  },
+  "07_bamboo_slat_floor_iso.png": {
+    "title": "Step 07: Bamboo Slat Floor",
+    "category": "Structure",
+    "desc": "Preserved Petung Bamboo Slat Staged Floor (3cm width, 1.4cm gap)",
+    "estimatedDuration": "2 - 3 Work Days",
+    "materials": [
+      { "name": "Aged Preserved Petung Bamboo Slats", "volume": "231 m²", "unitPrice": 85000, "qty": 231 },
+      { "name": "Slat Laying, Fastening & Nailing", "volume": "231 m²", "unitPrice": 16450, "qty": 231 }
+    ]
+  },
+  "08_timber_columns_and_upper_beams_iso.png": {
+    "title": "Step 08: Timber Columns",
+    "category": "Structure",
+    "desc": "Aged Teak Wood Columns (12cm x 12cm) & Upper Ring Beams",
+    "estimatedDuration": "2 - 3 Work Days",
+    "materials": [
+      { "name": "Solid Teak/Bangkirai Columns 12x12cm", "volume": "1.61 m³ (28 Pcs)", "unitPrice": 12000000, "qty": 1.61 },
+      { "name": "Plumbness Calibration & Column Erection", "volume": "28 Columns", "unitPrice": 150000, "qty": 28 }
+    ]
+  },
+  "09_single_maternity_pen_unit_iso.png": {
+    "title": "Step 09: Maternity Pen Unit",
+    "category": "Enclosure",
+    "desc": "Single Maternity Communal Pen Unit at East End (3.0m x 1.15m x 1.0m)",
+    "estimatedDuration": "2 - 3 Work Days",
+    "materials": [
+      { "name": "Modular Timber Maternity Pen Partitions", "volume": "6 Units", "unitPrice": 1450000, "qty": 6 },
+      { "name": "Maternity Pen Installation Labor", "volume": "6 Units", "unitPrice": 300000, "qty": 6 }
+    ]
+  },
+  "10_single_fattening_pen_unit_iso.png": {
+    "title": "Step 10: Fattening Pen Unit",
+    "category": "Enclosure",
+    "desc": "Single Individual Fattening Pen Unit (1.0m x 1.15m x 1.0m)",
+    "estimatedDuration": "2 - 3 Work Days",
+    "materials": [
+      { "name": "Modular Fattening Pen Partitions", "volume": "16 Units", "unitPrice": 850000, "qty": 16 },
+      { "name": "16 Fattening Pen Installation Labor", "volume": "16 Units", "unitPrice": 150000, "qty": 16 }
+    ]
+  },
+  "11_pen_partitions_full_array_iso.png": {
+    "title": "Step 11: Pen Partitions Array",
+    "category": "Enclosure",
+    "desc": "Full 33m Pen Partition Array (16 Fattening + 6 Maternity Pens)",
+    "estimatedDuration": "2 - 3 Work Days",
+    "materials": [
+      { "name": "Pen Partitions + Hinges & Lock Hardware", "volume": "22 Pen Sets", "unitPrice": 1100000, "qty": 22 },
+      { "name": "22-Pen Array Assembly & Setup", "volume": "22 Pen Sets", "unitPrice": 159000, "qty": 22 }
+    ]
+  },
+  "12_feed_trough_and_conveyor_iso.png": {
+    "title": "Step 12: Feed Trough & Conveyor",
+    "category": "Equipments",
+    "desc": "Safety Orange Feed Trough & Grass Conveyor System",
+    "estimatedDuration": "2 - 3 Work Days",
+    "materials": [
+      { "name": "Heavy-Duty Fiberglass Feed Trough (Orange)", "volume": "66 m", "unitPrice": 220000, "qty": 66 },
+      { "name": "Trough Mounting & Alignment Labor", "volume": "66 m", "unitPrice": 30300, "qty": 66 }
+    ]
+  },
+  "13_feed_bunker_and_chopper_station_iso.png": {
+    "title": "Step 13: Feed Bunker Station",
+    "category": "Equipments",
+    "desc": "Feed Storage Bunker & Grass Chopper/Mixer Station",
+    "estimatedDuration": "2 - 3 Work Days",
+    "materials": [
+      { "name": "5HP Industrial Forage Chopper & Mixer", "volume": "1 Unit", "unitPrice": 12500000, "qty": 1 },
+      { "name": "Feed Bunker Reinforced Enclosure", "volume": "1 Unit", "unitPrice": 6000000, "qty": 1 },
+      { "name": "Chopper Assembly & Electrical Wiring", "volume": "1 Package", "unitPrice": 1500000, "qty": 1 }
+    ]
+  },
+  "14_disinfectant_footbath_station_iso.png": {
+    "title": "Step 14: Disinfectant Footbath",
+    "category": "Sanitation",
+    "desc": "Disinfectant Footbath Basin & East Concrete Apron (2.0m x 1.5m)",
+    "estimatedDuration": "2 - 3 Work Days",
+    "materials": [
+      { "name": "Ceramic Footbath Basin & Spray Nozzles", "volume": "2 Units", "unitPrice": 3200000, "qty": 2 },
+      { "name": "Sanitary Plumbing Installation", "volume": "2 Units", "unitPrice": 600000, "qty": 2 }
+    ]
+  },
+  "15_east_loading_ramp_iso.png": {
+    "title": "Step 15: East Loading Ramp",
+    "category": "Access",
+    "desc": "East Non-Slip Timber Loading Ramp for Livestock (6.0m)",
+    "estimatedDuration": "2 - 3 Work Days",
+    "materials": [
+      { "name": "Ironwood Non-Slip Loading Ramp 6m", "volume": "1 Unit", "unitPrice": 5800000, "qty": 1 },
+      { "name": "Steel Handrail & Ramp Assembly", "volume": "1 Unit", "unitPrice": 950000, "qty": 1 }
+    ]
+  },
+  "16_stairs_and_corridor_gates_iso.png": {
+    "title": "Step 16: Stairs & Corridor Gates",
+    "category": "Access",
+    "desc": "West Operator Access Stairs & Double-Leaf Corridor Gates",
+    "estimatedDuration": "2 - 3 Work Days",
+    "materials": [
+      { "name": "Operator Stairs & Steel Corridor Gates", "volume": "2 Sets", "unitPrice": 4200000, "qty": 2 },
+      { "name": "Welding, Fitting & Gate Installation", "volume": "2 Sets", "unitPrice": 550000, "qty": 2 }
+    ]
+  },
+  "17_lighting_and_cctv_system_iso.png": {
+    "title": "Step 17: Lighting & CCTV System",
+    "category": "Utilities",
+    "desc": "Warm White LED Lighting & 33m Security IP CCTV Camera Array",
+    "estimatedDuration": "2 - 3 Work Days",
+    "materials": [
+      { "name": "Outdoor IP Security CCTV Cameras + NVR", "volume": "4 Units", "unitPrice": 1450000, "qty": 4 },
+      { "name": "18W Waterproof LED Fixtures & Lamps", "volume": "10 Units", "unitPrice": 200000, "qty": 10 },
+      { "name": "Electrical Conduit Wiring & NVR Setup", "volume": "1 Package", "unitPrice": 2200000, "qty": 1 }
+    ]
+  },
+  "18_roof_truss_framing_iso.png": {
+    "title": "Step 18: Roof Truss Framing",
+    "category": "Roof",
+    "desc": "Timber Roof Truss Framing & Rafters",
+    "estimatedDuration": "3 Work Days",
+    "materials": [
+      { "name": "Kruing Wood 6x12cm Trusses & Purlins", "volume": "1.85 m³", "unitPrice": 7200000, "qty": 1.85 },
+      { "name": "Timber Roof Truss Erection Labor", "volume": "1 Contract", "unitPrice": 3600000, "qty": 1 }
+    ]
+  },
+  "19_galvalume_monitor_roof_iso.png": {
+    "title": "Step 19: Galvalume Monitor Roof",
+    "category": "Roof",
+    "desc": "2-Tier Dark Navy Blue Galvalume Monitor Roof (34.20m)",
+    "estimatedDuration": "2 - 3 Work Days",
+    "materials": [
+      { "name": "0.35mm Dark Navy Galvalume Sheeting", "volume": "285 m²", "unitPrice": 125000, "qty": 285 },
+      { "name": "285m² Galvalume Roofing Labor", "volume": "285 m²", "unitPrice": 15780, "qty": 285 }
+    ]
+  },
+  "20_solar_panel_and_lightning_rod_iso.png": {
+    "title": "Step 20: Solar Panels & Lightning Rod",
+    "category": "Utilities",
+    "desc": "Off-Grid Solar Panels 1.2kWp & Splitzen Copper Lightning Rod",
+    "estimatedDuration": "2 - 3 Work Days",
+    "materials": [
+      { "name": "Off-Grid 1.2kWp Solar Array + Inverter", "volume": "1 System", "unitPrice": 18500000, "qty": 1 },
+      { "name": "Splitzen Pure Copper Lightning Rod & Grounding", "volume": "1 Set", "unitPrice": 4000000, "qty": 1 },
+      { "name": "Solar & Lightning Grounding Labor", "volume": "1 Package", "unitPrice": 3200000, "qty": 1 }
+    ]
+  },
+  "21_labels_and_dimensions_iso.png": {
+    "title": "Step 21: 3D Dimensions & Labels",
+    "category": "Annotations",
+    "desc": "3D Land Dimension Labels & 4 Cardinal Compass Directions",
+    "estimatedDuration": "2 - 3 Work Days",
+    "materials": [
+      { "name": "Project Information & Dimension Signage", "volume": "1 Set", "unitPrice": 1500000, "qty": 1 },
+      { "name": "Signage Mounting & Setup Labor", "volume": "1 Set", "unitPrice": 300000, "qty": 1 }
+    ]
+  },
+  "99_master_assembly_iso.png": {
+    "title": "99 Master: Monolithic Standalone",
+    "category": "Master Assembly",
+    "desc": "Monolithic Standalone Compilation of Complete OpenSCAD Code (Zero Imports)",
+    "estimatedDuration": "14 - 21 Work Days",
+    "materials": [
+      { "name": "Total Material Purchase Complete Barn", "volume": "264 m² Land", "unitPrice": 1050000, "qty": 264 },
+      { "name": "Total Labor & Civil Installation", "volume": "264 m² Land", "unitPrice": 200000, "qty": 264 }
+    ]
+  }
+}

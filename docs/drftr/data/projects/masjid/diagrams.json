@@ -1,0 +1,342 @@
+{
+  "00_master_assembly_site_iso.png": {
+    "title": "00 Master: Full 2-Story Mosque Design Plan",
+    "category": "Master Assembly",
+    "desc": "Complete 3D Perspective of 2-Story 344m² Mosque Building (Ground Floor 224m² & Mezzanine 120m²)",
+    "estimatedDuration": "120 - 150 Work Days",
+    "notes": [
+      "Total 2-Story Building Area: 344.0 m² (Ground Floor: 224m², Mezzanine: 120m²).",
+      "Total Congregation Capacity: 360 Persons (160 Male L1 + 120 Female L2 + 80 Veranda).",
+      "Building Elevations: Ground Floor ±0.00m, Second Floor +4.20m, Dome Peak +11.50m."
+    ],
+    "materials": [
+      { "name": "Site Clearing & Cut/Fill Earthwork", "volume": "500 m²", "unitPrice": 25000, "qty": 500 },
+      { "name": "Total Building Materials for 2 Floors", "volume": "344 m² Floor", "unitPrice": 3200000, "qty": 344 },
+      { "name": "Total Civil Construction & Engineering Labor", "volume": "344 m² Floor", "unitPrice": 1100000, "qty": 344 }
+    ]
+  },
+  "01_land_site_boundary_qibla_iso.png": {
+    "title": "Step 01: Site Geodesy, Trapezoid Boundary 369m² & Qibla Axis 294.5°",
+    "category": "SITE PREPARATION & EARTHWORK",
+    "desc": "Site Survey for Trapezoid Land 369.0m² (N:18m, E:18.68m, S:23m, W:18m) on Balanced Zero Datum ±0.00m Terrace. Surrounding Topography: West side sits +1.0m higher than mosque footprint (natural soil cut cliff), North Main Road slopes downward from West (+1.0m) to East (-1.0m), East & South sides sit -1.0m lower (supported by 1.0m Masonry Retaining Wall). Perimeter batter boards 77.7m and high-precision laser Qibla calibration 294.5° NW.",
+    "estimatedDuration": "2 Work Days",
+    "perimeterLengths": [
+      { "facing": "NORTH", "length": "18.00 m", "desc": "Front Boundary / Main Access Road 6m Wide (Slopes from West +1.0m to East -1.0m)" },
+      { "facing": "EAST", "length": "18.68 m", "desc": "Diagonal Boundary + Alleyway 1.0m Wide (East Ground Level at -1.0m)" },
+      { "facing": "SOUTH", "length": "23.00 m", "desc": "Rear Boundary + Alleyway 1.0m Descending to Neighborhood Houses (-1.0m)" },
+      { "facing": "WEST", "length": "18.00 m", "desc": "Perpendicular West Boundary 90° (West Neighbor Land +1.0m Higher / Cut Cliff)" }
+    ],
+    "siteElevations": [
+      { "location": "Mosque Footprint Area", "elevation": "0m", "status": "Zero Datum Reference (FFL +0.40m)", "desc": "Mosque terrace surface leveled to perfect planar datum ±0.00m" },
+      { "location": "Outer West Boundary (Neighboring Land)", "elevation": "+1m", "status": "Higher by +1.0m (+1.00m)", "desc": "Western adjacent property sits +1.00m above mosque terrace, forming natural cut bank" },
+      { "location": "Main Road (North)", "elevation": "+1m to -1m", "status": "Sloped Public Road", "desc": "Northern main road slopes downward from West (+1.00m) to East (-1.00m)" },
+      { "location": "East Boundary (Alley & Neighbors)", "elevation": "-1m", "status": "Lower by 1m (-1.00m)", "desc": "1.0m alley and eastern ground level sit -1.00m lower, reinforced by 1.0m retaining wall" },
+      { "location": "South Boundary (Residential Access)", "elevation": "-1m", "status": "Lower by 1m (-1.00m)", "desc": "Rear alley descending to residential houses sits -1.00m lower, reinforced by 1.0m retaining wall" }
+    ],
+    "notes": [
+      "Trapezoid Land Geometry 369.0m²: West 18m, North 18m (Main Road 6m), South 23m, East 18.68m diagonal.",
+      "West Topography: Land on western side is +1.0m higher than mosque footprint (natural cut ground).",
+      "Road & Boundary Slope: North Road slopes from West (+1.0m) to East (-1.0m), East & South sit -1.0m lower.",
+      "Mosque Level Terrace (Zero Datum ±0.00m): Formed as balanced cut-and-fill terrace at elevation ±0.00m.",
+      "Masonry Retaining Wall 1.0m: Stone retaining wall constructed along South and East slopes to hold terrace subgrade.",
+      "Timber Batter Boards (Bouwplank): Total perimeter 77.7m aligned with 90° square corners at SW and NW.",
+      "High-Precision Qibla Calibration 294.5° NW: Measured using Geodetic Total Station referenced to True North.",
+      "Effective Building Footprint: 14.0m x 13.0m (182.0m²) with 3.0m front setback & 2.0m rear/side setbacks."
+    ],
+    "materials": [
+      { "name": "Timber Batter Boards & Alignment Stakes", "volume": "78 m", "unitPrice": 45000, "qty": 78 },
+      { "name": "Geodetic Survey & Precision Qibla Calibration", "volume": "1 Package", "unitPrice": 1500000, "qty": 1 },
+      { "name": "Masonry Retaining Wall 1.0m Height", "volume": "30 m3", "unitPrice": 420000, "qty": 30 }
+    ]
+  },
+  "02_excavation_biotech_septic_tank_iso.png": {
+    "title": "Step 02: Earth Excavation 1.5m, BioTech Septic Tank 3000L & Sand Bedding",
+    "category": "EXCAVATION & FOOTING FOUNDATION",
+    "desc": "Excavation of 16 Footplat Pit Holes (1.2m x 1.2m x 1.5m = 85.0m³), Compacted Sand Bedding 10cm + Lean Concrete LC B-0 5cm, BioTech Septic Tank 3000L Pit (2.5m), and 2 Infiltration Wells.",
+    "estimatedDuration": "6 Work Days",
+    "perimeterLengths": [
+      { "facing": "NORTH", "length": "85.0 m³", "desc": "Total Excavation Volume for 16 Footplat Pits (1.2m x 1.2m x 1.5m)" },
+      { "facing": "EAST", "length": "12.5 m³", "desc": "Excavation Volume for BioTech 3000L Septic Tank Pit (2.50m Depth)" },
+      { "facing": "SOUTH", "length": "4.7 m³", "desc": "Excavation Volume for 2 Rainwater Infiltration Wells (Dia 1.0m x 3.0m)" },
+      { "facing": "WEST", "length": "8.5 m³", "desc": "Compacted Sand Bedding 10cm + Lean Concrete LC B-0 5cm Sub-layer" }
+    ],
+    "siteElevations": [
+      { "location": "Zero Datum Reference", "elevation": "0m", "status": "Finished Floor Level (FFL ±0.00m)", "desc": "Zero Datum reference point from perimeter batter boards" },
+      { "location": "Footplat Excavation Bottom", "elevation": "-1.50m", "status": "Excavation Depth (-1.50m)", "desc": "Hard soil bearing strata with 1:0.5 batter slope" },
+      { "location": "Septic Tank Pit Bottom", "elevation": "-2.50m", "status": "Tank Pit Depth (-2.50m)", "desc": "Bottom of BioTech 3000L tank pit with waterproof concrete base" }
+    ],
+    "asciiDiagram": "+======================[ STEP 02: EXCAVATION & SUBGRADE ]======================+\n| DATUM ELEVATION: ±0.00m (MOSQUE FFL)                                          |\n|                                                                               |\n|   ┌──────────────────────────────────────────────────────────────────────┐    |\n|   │                       REAR RESIDENTIAL (SOUTH)                       │    |\n|   └──────────────────────────────────────────────────────────────────────┘    |\n|        [L-13]          [L-14]          [L-15]          [L-16]             |\n|       ┌──────┐        ┌──────┐        ┌──────┐        ┌──────┐            |\n|       │1.2m  │        │      │        │      │        │      │            |\n|       │x 1.2m│        │      │        │      │        │      │            |\n|       └──────┘        └──────┘        └──────┘        └──────┘            |\n|                                                                               |\n|        [L-09]          [L-10]          [L-11]          [L-12]             |\n|       ┌──────┐        ┌──────┐        ┌──────┐        ┌──────┐            |\n|       │      │        │      │        │      │        │      │            |\n|       └──────┘        └──────┘        └──────┘        └──────┘            |\n|                                                                               |\n|        [L-05]          [L-06]          [L-07]          [L-08]   [BIOTECH] |\n|       ┌──────┐        ┌──────┐        ┌──────┐        ┌──────┐ ┌────────┐ |\n|       │      │        │      │        │      │        │      │ │ 3000L  │ |\n|       └──────┘        └──────┘        └──────┘        └──────┘ └────────┘ |\n|                                                                           |\n|        [L-01]          [L-02]          [L-03]          [L-04]   [RESAPAN] |\n|       ┌──────┐        ┌──────┐        ┌──────┐        ┌──────┐ ┌────────┐ |\n|       │      │        │      │        │      │        │      │ │2 Titik │ |\n|       └──────┘        └──────┘        └──────┘        └──────┘ └────────┘ |\n|   ┌──────────────────────────────────────────────────────────────────────┐    |\n|   │                         MAIN ROAD 6m (NORTH)                         │    |\n|   └──────────────────────────────────────────────────────────────────────┘    |\n| PIT SPEC: Pit Excavation 1.2m x 1.2m x 1.5m (-1.50m)                          |\n| STRUCTURAL LAYER: Compacted Sand 10cm + Lean Concrete LC B-0 5cm              |\n+==============================================================================+",
+    "notes": [
+      "Excavation 1.5m: 16 foundation pits 1.2m x 1.2m at 1.50m depth (85.0m³) reaching hard bearing strata (N-SPT > 15).",
+      "Compacted Sand Bedding 10cm: Clean sand spread 10cm thick across 16 pit bottoms, wetted and machine-compacted.",
+      "Lean Concrete (LC B-0): 5cm blinding concrete (f'c 10 MPa) to protect rebar from soil contact and moisture.",
+      "BioTech Septic Tank 3000L: Pit excavated to 2.50m depth with reinforced concrete base and anaerobic filtration.",
+      "Rainwater Infiltration Wells: 2 perforated precast concrete ring wells dia. 1.0m x 3.0m for stormwater runoff."
+    ],
+    "materials": [
+      { "name": "Earth Excavation for 2-Story Footing Pits", "volume": "85 m³", "unitPrice": 120000, "qty": 85 },
+      { "name": "Compacted Sand Bedding & Subgrade Prep", "volume": "8.5 m³", "unitPrice": 220000, "qty": 8.5 },
+      { "name": "Lean Concrete Blinding LC B-0 (f'c 10 MPa)", "volume": "4.2 m³", "unitPrice": 850000, "qty": 4.2 },
+      { "name": "BioTech Septic Tank Unit 3000 Liters", "volume": "1 Unit", "unitPrice": 8500000, "qty": 1 },
+      { "name": "Rainwater Infiltration Wells Installation (2 Units)", "volume": "2 Wells", "unitPrice": 2200000, "qty": 2 }
+    ]
+  },
+  "03_concrete_pedestals_umpak_iso.png": {
+    "title": "Step 03: 16 Footplat Foundations 1m x 1m & K-300 Concrete Pedestals",
+    "category": "EXCAVATION & FOOTING FOUNDATION",
+    "desc": "Casting 16 Reinforced Footplat Foundations (1.0m x 1.0m x 0.4m) + Pedestal Columns (30cm x 30cm x 80cm) in K-300 Concrete (f'c 25 MPa), D16-125mm Double Layer Deformed Rebar, M22 Anchor Bolts, 7-Day Curing & Backfill.",
+    "estimatedDuration": "8 Work Days",
+    "perimeterLengths": [
+      { "facing": "NORTH", "length": "16 Units", "desc": "Total Heavy-Duty Footplat Foundation Units for 2-Story Building" },
+      { "facing": "EAST", "length": "7.55 m³", "desc": "Total K-300 ReadyMix Concrete Volume (Footing 6.40m³ + Pedestal 1.15m³)" },
+      { "facing": "SOUTH", "length": "1.450 kg", "desc": "Total Weight of D16-125mm Double Mesh Rebar & D10 Stirrups" },
+      { "facing": "WEST", "length": "96 Units", "desc": "Total M22 Grade 8.8 High-Tensile Steel Anchor Bolts (6 per Pedestal)" }
+    ],
+    "siteElevations": [
+      { "location": "Zero Datum Reference", "elevation": "0m", "status": "Top of Pedestal Column (FFL ±0.00m)", "desc": "Top pedestal surface supporting main ground tie-beams" },
+      { "location": "Top of Footplat Base", "elevation": "-0.80m", "status": "Top of Footing Slab (-0.80m)", "desc": "Upper face of 40cm footplat slab" },
+      { "location": "Bottom of Footplat Base", "elevation": "-1.20m", "status": "Bottom of Footing Slab (-1.20m)", "desc": "Bottom of footing sitting on 5cm lean concrete blinding" }
+    ],
+    "asciiDiagram": "+======================[ STEP 03: FOOTPLAT & PEDESTAL ]========================+\n| STRUCTURAL FOOTPLAT & PEDESTAL DETAIL (SNI 2847:2019)                         |\n|                                                                              |\n|                    COLUMNS & SLOOF LINE (FFL ±0.00m)                         |\n|     ══════════════════════════════════════════════════════════               |\n|                                  │  │                                        |\n|                         ┌────────┴──┴────────┐                               |\n|                         │  PEDESTAL COLUMN   │                               |\n|                         │   30cm x 30cm      │                               |\n|                         │   K-300 Concrete   │ (80cm Height)                 |\n|                         │ (Rebar 8x D16)     │                               |\n|                         └────────┬──┬────────┘                               |\n|                     -0.80m ──────┼──┼──────                                  |\n|                 ┌────────────────┴──┴────────────────┐                       |\n|                 │       FOOTPLAT BASE SLAB           │                       |\n|                 │      100cm x 100cm x 40cm          │ (40cm Thickness)      |\n|                 │  (D16-125mm Double Rebar Mesh)     │                       |\n|                 └────────────────────────────────────┘                       |\n|                     -1.20m ────────────────────────                        |\n|                 ░░░░ LEAN CONCRETE LC B-0 (5cm)     ░░░░                     |\n|                 ▒▒▒▒ COMPACTED SAND BEDDING (10cm)  ▒▒▒▒                     |\n|                 ████ HARD SOIL STRATA (N-SPT >15)   ████                     |\n+==============================================================================+",
+    "notes": [
+      "Footplat Foundations 16 Units (K-300): 100cm x 100cm x 40cm slabs using ReadyMix K-300 (f'c 25 MPa) concrete.",
+      "Double Layer D16-125mm Rebar Mesh: Upper and lower rebar mats with 5cm concrete cover spacers.",
+      "Pedestal Columns 30x30cm: 16 columns 80cm tall tied with D16 90° hooks (20cm) into footing base mats.",
+      "M22 High-Tensile Anchor Bolts: 6 Grade 8.8 anchor bolts per pedestal installed with steel template plates.",
+      "Mechanical Vibration & 7-Day Curing: Consolidated with mechanical poker vibrators and wet-cured for 7 days.",
+      "Compacted Backfill: Excavated soil backfilled in 20cm layers and machine-compacted up to ±0.00m level."
+    ],
+    "materials": [
+      { "name": "ReadyMix K-300 Concrete (f'c 25 MPa)", "volume": "7.55 m³", "unitPrice": 1250000, "qty": 7.55 },
+      { "name": "Deformed Steel Rebar D16 (SNI TS-420)", "volume": "1200 kg", "unitPrice": 16500, "qty": 1200 },
+      { "name": "Plain Rebar D10 for Pedestal Stirrups", "volume": "250 kg", "unitPrice": 15500, "qty": 250 },
+      { "name": "M22 Grade 8.8 High-Tensile Anchor Bolts", "volume": "96 Units", "unitPrice": 65000, "qty": 96 },
+      { "name": "12mm Plywood Formwork & Pedestal Labor", "volume": "16 Units", "unitPrice": 450000, "qty": 16 }
+    ]
+  },
+  "04_subgrade_slab_tile_foundation_iso.png": {
+    "title": "Step 04: Ground Floor Concrete Slab Casting",
+    "category": "MAIN BUILDING STRUCTURE",
+    "desc": "Ground Floor Slab Casting K-225 Concrete + Vapor Barrier & Leveling Sand (224m²)",
+    "estimatedDuration": "6 Work Days",
+    "notes": [
+      "Vapor Barrier & Sand Bedding: 10cm compacted sand bedding + 0.15mm PE poly sheet barrier.",
+      "K-225 Concrete Floor Slab: 10cm thickness with M6 welded steel wiremesh single layer.",
+      "Veranda Floor Slope: 1% outward drainage slope for easy cleaning runoff."
+    ],
+    "materials": [
+      { "name": "Compacted Sand Bedding Below Slab", "volume": "22.4 m³", "unitPrice": 220000, "qty": 22.4 },
+      { "name": "K-225 Waterproof Floor Slab Concrete", "volume": "22.4 m³", "unitPrice": 980000, "qty": 22.4 },
+      { "name": "Welded Wiremesh M6 Single Layer", "volume": "224 m²", "unitPrice": 48000, "qty": 224 }
+    ]
+  },
+  "05_reinforced_columns_ring_balk_iso.png": {
+    "title": "Step 05: Main Columns 35x35cm & Second Floor Beams",
+    "category": "MAIN BUILDING STRUCTURE",
+    "desc": "Main Columns 35x35cm, Second Floor Girders (25x50cm) & Mezzanine Slab Casting (12cm)",
+    "estimatedDuration": "18 Work Days",
+    "notes": [
+      "Main Columns for 2-Story Structure: 16 columns 35cm x 35cm K-300 concrete, 12D16 rebar, D8-100 ties.",
+      "Second Floor Main Girders: 25cm x 50cm spans in K-300 concrete supporting second floor.",
+      "Mezzanine Floor Slab: 12cm thick K-300 concrete with double M8 wiremesh at +4.20m elevation."
+    ],
+    "materials": [
+      { "name": "K-300 Concrete for Columns & 2nd Floor Beams", "volume": "38.5 m³", "unitPrice": 1250000, "qty": 38.5 },
+      { "name": "Main Rebar D16 Deformed & D8 Stirrup Wire", "volume": "2850 kg", "unitPrice": 16500, "qty": 2850 },
+      { "name": "Formwork & Scaffolding for Mezzanine Slab", "volume": "120 m²", "unitPrice": 160000, "qty": 120 }
+    ]
+  },
+  "06_brick_walls_and_mihrab_alcove_iso.png": {
+    "title": "Step 06: 2-Story Brick Wall Enclosure & Mihrab",
+    "category": "MAIN BUILDING STRUCTURE",
+    "desc": "2-Story Pressed Red Brick Walls, Plaster-Skimcoat & 4.2m High Mihrab Arch Alcove",
+    "estimatedDuration": "16 Work Days",
+    "notes": [
+      "2-Story Pressed Red Brick Walls: 1/2 brick mortar 1PC:4PS up to +8.0m elevation.",
+      "Imam Mihrab Arch Alcove: 3.0m wide, 1.5m deep, with 4.2m arched opening.",
+      "Plaster & Skimcoat Finish: 15mm thickness + smooth crack-resistant skimcoat finish."
+    ],
+    "materials": [
+      { "name": "Oven-Pressed Red Brick Masonry", "volume": "580 m²", "unitPrice": 115000, "qty": 580 },
+      { "name": "Premium Cement Plaster & Fine Skimcoat", "volume": "1160 m²", "unitPrice": 42000, "qty": 1160 },
+      { "name": "Teak Wood Curved Mihrab Arch Fabrication", "volume": "1 Set", "unitPrice": 5500000, "qty": 1 }
+    ]
+  },
+  "07_female_prayer_section_hijab_iso.png": {
+    "title": "Step 07: Female Prayer Mezzanine & Concrete Stairs",
+    "category": "MAIN BUILDING STRUCTURE",
+    "desc": "Second Floor Female Prayer Mezzanine (90m²), Main Concrete Stairs & Stainless Handrails",
+    "estimatedDuration": "8 Work Days",
+    "notes": [
+      "Female Prayer Mezzanine (L2): 90.0m² area with 120-person congregation capacity.",
+      "Main Concrete Stairs: 1.50m width K-300 concrete with non-slip granito nosing.",
+      "Mezzanine Balcony Railing: Stainless Steel & GRC Islamic Arabesque Screen 1.10m high."
+    ],
+    "materials": [
+      { "name": "Stainless Steel & GRC Balcony Railing", "volume": "24 m", "unitPrice": 650000, "qty": 24 },
+      { "name": "K-300 Concrete Main Stairs Construction", "volume": "1 Unit", "unitPrice": 8500000, "qty": 1 },
+      { "name": "Teak Wood Arabesque Hijab Screen Partitions", "volume": "24 m²", "unitPrice": 850000, "qty": 24 }
+    ]
+  },
+  "08_limasan_roof_truss_framing_iso.png": {
+    "title": "Step 08: Heavy-Duty Limasan Roof Truss",
+    "category": "LIMASAN ROOF & DOME",
+    "desc": "2-Tier Limasan Roof Truss Framing in Hardwood / Heavy-Duty Steel at +8.5m Elevation",
+    "estimatedDuration": "12 Work Days",
+    "notes": [
+      "2-Tier Limasan Truss Framing: Heavy Bangkirai hardwood / heavy-gauge C75 steel double truss.",
+      "Main Clear Span: 14.0m clear span anchored to perimeter ring beams at +8.50m.",
+      "Connection Joinery: M16 Grade 8.8 bolts & 6mm steel gusset plates."
+    ],
+    "materials": [
+      { "name": "Bangkirai Hardwood Trusses & Purlins 8x15cm", "volume": "5.6 m³", "unitPrice": 11500000, "qty": 5.6 },
+      { "name": "Heavy Roof Truss Erection & Hoisting Labor", "volume": "1 Contract", "unitPrice": 11500000, "qty": 1 }
+    ]
+  },
+  "09_limasan_roof_cover_clerestory_iso.png": {
+    "title": "Step 09: Glazed Ceramic Tile Roofing & Louvers",
+    "category": "LIMASAN ROOF & DOME",
+    "desc": "Glazed Ceramic Roof Tiles 310m² & High Clerestory Louver Ventilation Windows",
+    "estimatedDuration": "8 Work Days",
+    "notes": [
+      "Roof Covering: Glazed Ceramic Tiles (Dark Green / Navy Blue) at 30° pitch.",
+      "Clerestory Louver Windows: Natural airflow louvers on second tier of limasan roof.",
+      "Rain Gutters: Heavy 8-inch PVC channels routing rooftop runoff to infiltration wells."
+    ],
+    "materials": [
+      { "name": "Glazed Ceramic Roof Tiles Dark Green/Navy", "volume": "310 m²", "unitPrice": 165000, "qty": 310 },
+      { "name": "Timber Clerestory Louver Ventilation Units", "volume": "14 Units", "unitPrice": 750000, "qty": 14 },
+      { "name": "Tile Laying & Fascia Board Labor", "volume": "310 m²", "unitPrice": 25000, "qty": 310 }
+    ]
+  },
+  "10_crescent_star_dome_ornament_iso.png": {
+    "title": "Step 10: Enamel Dome 2.5m & Gold Crescent Finial",
+    "category": "LIMASAN ROOF & DOME",
+    "desc": "2.5m Diameter Stainless/Enamel Islamic Dome & Gold Crescent Star Finial at +11.5m Peak",
+    "estimatedDuration": "4 Work Days",
+    "notes": [
+      "Limasan Peak Dome: Enamel Steel / Gold Stainless steel dia. 2.50m x 3.20m high.",
+      "Finial Ornament: Rustproof Stainless Gold crescent and star with Arabic calligraphy.",
+      "Waterproofing: Double industrial silicone sealant on peak mounting flange."
+    ],
+    "materials": [
+      { "name": "Enamel Dome with Islamic Star Motif 2.5m", "volume": "1 Set", "unitPrice": 28500000, "qty": 1 },
+      { "name": "Stainless Gold Crescent & Star Finial", "volume": "1 Set", "unitPrice": 4500000, "qty": 1 },
+      { "name": "Dome Hoisting & Flange Waterproofing Labor", "volume": "1 Package", "unitPrice": 3500000, "qty": 1 }
+    ]
+  },
+  "11_male_wudhu_sanitation_pavilion_iso.png": {
+    "title": "Step 11: Male Ablution & Sanitation Pavilion (L1)",
+    "category": "SANITATION & ABLUTION AREA",
+    "desc": "Male Ablution Pavilion 16m² (8 Brass Faucets, Non-slip Tiles, 2 Toilets, 2 Urinals)",
+    "estimatedDuration": "8 Work Days",
+    "notes": [
+      "Male Ablution Pavilion: 16.0m² area equipped with 8 heavy-duty brass faucets.",
+      "Sanitary Fixtures: 2 TOTO Squat Closets, 2 TOTO Wall Urinals & Rinse Spray Hoses.",
+      "Floor & Wall Finishes: 40x40 Matte Textured Non-Slip Homogeneous Tiles."
+    ],
+    "materials": [
+      { "name": "Heavy-Duty Brass Stainless Ablution Faucets", "volume": "8 Units", "unitPrice": 280000, "qty": 8 },
+      { "name": "TOTO Squat Closets & Wall Urinals", "volume": "4 Sets", "unitPrice": 1450000, "qty": 4 },
+      { "name": "Non-Slip Homogeneous Wall & Floor Tiles", "volume": "48 m²", "unitPrice": 135000, "qty": 48 },
+      { "name": "Ablution Plinth Casting & Plumbing Labor", "volume": "1 Contract", "unitPrice": 4200000, "qty": 1 }
+    ]
+  },
+  "12_female_wudhu_sanitation_pavilion_iso.png": {
+    "title": "Step 12: Female Ablution & Sanitation Pavilion (L1)",
+    "category": "SANITATION & ABLUTION AREA",
+    "desc": "Female Ablution Pavilion 12m² (6 Brass Faucets, 2 Enclosed Sit Toilets)",
+    "estimatedDuration": "6 Work Days",
+    "notes": [
+      "Female Ablution Pavilion: 12.0m² area equipped with 6 brass ablution faucets.",
+      "Sanitary Fixtures: 2 Enclosed Private TOTO Sit Closets with Jet Washers.",
+      "Privacy & Ventilation: 12\" Wall Exhaust Fan & Full-Height 2.40m Tiled Partitions."
+    ],
+    "materials": [
+      { "name": "Heavy-Duty Brass Ablution Faucets", "volume": "6 Units", "unitPrice": 280000, "qty": 6 },
+      { "name": "TOTO Sit Closets & Fittings", "volume": "2 Sets", "unitPrice": 2400000, "qty": 2 },
+      { "name": "Non-Slip Homogeneous Wall & Floor Tiles", "volume": "36 m²", "unitPrice": 135000, "qty": 36 },
+      { "name": "Sanitary & Plumbing Installation Labor", "volume": "1 Contract", "unitPrice": 3200000, "qty": 1 }
+    ]
+  },
+  "13_south_serambi_porch_ramp_iso.png": {
+    "title": "Step 13: Veranda Porch & Accessibility Ramp",
+    "category": "MEP, ACOUSTICS & PRAYER INTERIOR",
+    "desc": "Front Veranda Porch 42m² (14m x 3m), Integrated Shoe Racks & 1:12 Accessibility Ramp",
+    "estimatedDuration": "6 Work Days",
+    "notes": [
+      "Front Veranda Porch: 42.0m² area (14.0m x 3.0m) paved in unpolished outdoor Granito.",
+      "Accessibility Ramp: 1:12 slope standard with stainless steel grab handrails.",
+      "Aluminum Shoe Storage: 4 double-tier aluminum racks holding 120 footwear pairs."
+    ],
+    "materials": [
+      { "name": "Unpolished Outdoor Granito Veranda Tiles", "volume": "42 m²", "unitPrice": 185000, "qty": 42 },
+      { "name": "Accessibility Ramp Concrete & Handrails", "volume": "1 Unit", "unitPrice": 3800000, "qty": 1 },
+      { "name": "Double-Tier Aluminum Stainless Shoe Racks", "volume": "4 Units", "unitPrice": 1250000, "qty": 4 }
+    ]
+  },
+  "14_southeast_minaret_tower_base_iso.png": {
+    "title": "Step 14: Southeast Minaret Tower 12m",
+    "category": "MEP, ACOUSTICS & PRAYER INTERIOR",
+    "desc": "Foundation & 2m x 2m x 12m High Minaret Tower on Southeast Lawn",
+    "estimatedDuration": "12 Work Days",
+    "notes": [
+      "Southeast Minaret Tower: 2.0m x 2.0m footprint with 12.0m peak height.",
+      "Structural Frame: Reinforced K-300 concrete with 8D16 main rebar cage.",
+      "Decorative Screen: GRC Islamic Geometric Arabesque Screen panels."
+    ],
+    "materials": [
+      { "name": "Reinforced K-300 Concrete Minaret Structure", "volume": "14.5 m³", "unitPrice": 1350000, "qty": 14.5 },
+      { "name": "WeatherShield Coating & GRC Arabesque Lattice", "volume": "96 m²", "unitPrice": 95000, "qty": 96 },
+      { "name": "12m Minaret Scaffolding & Erection Labor", "volume": "1 Package", "unitPrice": 6500000, "qty": 1 }
+    ]
+  },
+  "15_audio_toa_amplifier_wiring_iso.png": {
+    "title": "Step 15: 2-Story TOA Audio & Control Desk",
+    "category": "MEP, ACOUSTICS & PRAYER INTERIOR",
+    "desc": "Amplifier Rack, 4 Minaret Horn Speakers & 8 Indoor Column Speakers (L1 & L2)",
+    "estimatedDuration": "4 Work Days",
+    "notes": [
+      "Minaret Speakers: 4 units TOA 50W Horn Speakers facing 4 compass directions.",
+      "Indoor Column Speakers: 8 units TOA 30W Column Speakers (Main Hall & Mezzanine).",
+      "Amplifier & Microphones: TOA ZA-2240 240W mixer-amp + UHF wireless & imam clip-ons."
+    ],
+    "materials": [
+      { "name": "TOA 50W Outdoor Horn Speakers (Minaret)", "volume": "4 Units", "unitPrice": 1650000, "qty": 4 },
+      { "name": "TOA 30W Indoor Column Speakers (L1 & L2)", "volume": "8 Units", "unitPrice": 850000, "qty": 8 },
+      { "name": "TOA 240W Amplifier Mixer + Wireless Mics", "volume": "1 Set", "unitPrice": 7500000, "qty": 1 },
+      { "name": "Shielded Audio Conduit Wiring for 2 Floors", "volume": "1 Package", "unitPrice": 3200000, "qty": 1 }
+    ]
+  },
+  "16_granito_floor_saf_lines_iso.png": {
+    "title": "Step 16: 2-Story Granito Flooring & Prayer Rows",
+    "category": "MEP, ACOUSTICS & PRAYER INTERIOR",
+    "desc": "60x60 Cream Polished Granito on Both Floors + Inlaid Dark Tile Permanent Prayer Lines",
+    "estimatedDuration": "10 Work Days",
+    "notes": [
+      "Main Hall & Mezzanine Floors: 60cm x 60cm Grade AAA polished cream granito (220m² total).",
+      "Permanent Prayer Lines: 10cm dark brown inlaid tiles at 1.20m row spacing.",
+      "Congregation Prayer Comfort: 14mm thick Turkish prayer carpets installed on both floors."
+    ],
+    "materials": [
+      { "name": "Granito 60x60 Polished Cream Tiles (L1 & L2)", "volume": "220 m²", "unitPrice": 210000, "qty": 220 },
+      { "name": "Inlaid Dark Brown Tile Prayer Lines (1.2m)", "volume": "14 Rows", "unitPrice": 450000, "qty": 14 },
+      { "name": "Precision Tile Laying Labor for Both Floors", "volume": "220 m²", "unitPrice": 45000, "qty": 220 }
+    ]
+  },
+  "99_master_assembly_masjid_full_iso.png": {
+    "title": "99 Master: Complete 2-Story Mosque Model",
+    "category": "Master Assembly",
+    "desc": "Monolithic 3D Perspective of Complete 2-Story Mosque Ready for Daily & Friday Prayers",
+    "estimatedDuration": "120 - 150 Work Days",
+    "notes": [
+      "Operational Readiness: 100% Ready for 5 Daily Prayers and Friday Congregations.",
+      "Total Capacity: 360 Persons (160 Male L1 + 120 Female L2 + 80 Veranda).",
+      "Structural Warranty: 1-Year structural maintenance and warranty."
+    ],
+    "materials": [
+      { "name": "Total Building Materials for 2 Floors", "volume": "344 m² Floor", "unitPrice": 3200000, "qty": 344 },
+      { "name": "Total Civil Construction & Engineering Labor", "volume": "344 m² Floor", "unitPrice": 1100000, "qty": 344 }
+    ]
+  }
+}
