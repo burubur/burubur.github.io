@@ -11,15 +11,17 @@ export const generateResumePDF = async () => {
   document.body.appendChild(iframe)
 
   // Wait for iframe to load
-  await new Promise((resolve) => {
+  await new Promise(resolve => {
     iframe.onload = resolve
     iframe.src = "/resume-prints"
   })
 
   // Wait a bit for content to render
-  await new Promise((resolve) => setTimeout(resolve, 1500))
+  await new Promise(resolve => setTimeout(resolve, 1500))
 
-  const resumeContainer = iframe.contentDocument.querySelector(".resume-container")
+  const resumeContainer = iframe.contentDocument.querySelector(
+    ".resume-container"
+  )
 
   if (!resumeContainer) {
     document.body.removeChild(iframe)
@@ -46,14 +48,14 @@ export const generateResumePDF = async () => {
   const margin = 40 // 40pt margin on all sides
 
   // Calculate scaling to fit content within page width (with margins)
-  const contentWidth = pageWidth - (margin * 2)
+  const contentWidth = pageWidth - margin * 2
   const scaleFactor = contentWidth / canvas.width
   const scaledHeight = canvas.height * scaleFactor
 
   const imgData = canvas.toDataURL("image/png")
 
   // Calculate how many pages we need
-  const availableHeight = pageHeight - (margin * 2)
+  const availableHeight = pageHeight - margin * 2
   let heightRemaining = scaledHeight
   let sourceY = 0
 

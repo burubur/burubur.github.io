@@ -11,8 +11,21 @@
   "summary": "Staff Software Engineer with 10+ years of experience in backend development, microservices architecture, and distributed systems. Currently helping the migration of Agoda's Pricing Backend from Scala to Kotlin. Proven track record in building scalable payment systems, transport services, and digital goods platforms. Passionate about clean code practices and efficient infrastructure design.",
   "skills": {
     "languages": ["Golang", "Scala", "Kotlin", "Java", "C#", "NodeJS", "PHP"],
-    "technologies": ["Apache Kafka", "Redis", "MySQL", "MariaDB", "MongoDB", "Datadog"],
-    "specializations": ["Microservices Architecture", "Event Sourcing", "Payment Systems", "API Design", "Backend Development"]
+    "technologies": [
+      "Apache Kafka",
+      "Redis",
+      "MySQL",
+      "MariaDB",
+      "MongoDB",
+      "Datadog"
+    ],
+    "specializations": [
+      "Microservices Architecture",
+      "Event Sourcing",
+      "Payment Systems",
+      "API Design",
+      "Backend Development"
+    ]
   },
   "education": [
     {

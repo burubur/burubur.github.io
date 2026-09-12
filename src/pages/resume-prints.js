@@ -5,7 +5,14 @@ import "./../styles/resume-print.css"
 
 export default function ResumePrint() {
   const { experiences } = workExperienceData
-  const { personal, summary, skills, education, certifications, languages } = resumeData
+  const {
+    personal,
+    summary,
+    skills,
+    education,
+    certifications,
+    languages,
+  } = resumeData
 
   return (
     <div className="resume-container">
@@ -33,7 +40,7 @@ export default function ResumePrint() {
 
       <div className="resume-section">
         <h3 className="resume-section-title">Work Experience</h3>
-        {experiences.map((exp) => (
+        {experiences.map(exp => (
           <div key={exp.id} className="resume-experience">
             <div className="resume-exp-header">
               <div>
@@ -65,7 +72,8 @@ export default function ResumePrint() {
             <strong>Technologies:</strong> {skills.technologies.join(", ")}
           </div>
           <div className="resume-skill-group">
-            <strong>Specializations:</strong> {skills.specializations.join(", ")}
+            <strong>Specializations:</strong>{" "}
+            {skills.specializations.join(", ")}
           </div>
         </div>
       </div>

@@ -12,20 +12,29 @@ export default function Portfolio() {
         <div className="portfolio-header">
           <h1 className="portfolio-title">Work Experience</h1>
           <p className="portfolio-summary">
-            {summary.totalYearsOfExperience}+ years of experience in software engineering
+            {summary.totalYearsOfExperience}+ years of experience in software
+            engineering
           </p>
           <CalculateTenure startDate="2014-05-01" />
           <div className="resume-buttons">
-            <Link to="/resume-prints" target="_blank" className="view-resume-btn">
+            <Link
+              to="/resume-prints"
+              target="_blank"
+              className="view-resume-btn"
+            >
               👁️ View Resume
             </Link>
-            <a href="/resume.pdf" download="Burhan_Mubarok_Resume.pdf" className="download-resume-btn">
+            <a
+              href="/resume.pdf"
+              download="Burhan_Mubarok_Resume.pdf"
+              className="download-resume-btn"
+            >
               📥 Download Resume
             </a>
           </div>
         </div>
         <div className="experience-timeline">
-          {experiences.map((exp) => (
+          {experiences.map(exp => (
             <ExperienceCard key={exp.id} experience={exp} />
           ))}
         </div>

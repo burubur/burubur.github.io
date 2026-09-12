@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blogs-js",
+    "path": "/blogs/",
+    "result": {"data":{"allMarkdownRemark":{"nodes":[{"frontmatter":{"date":"2026-09-12 22:41","slug":"/blogs/whysingularity","title":"Why's Singularity"}},{"frontmatter":{"date":"2026-02-15 10:00","slug":"/blogs/monoloop","title":"The Monoloop"}},{"frontmatter":{"date":"2026-02-15 09:00","slug":"/blogs/entropy","title":"Entropy"}},{"frontmatter":{"date":"2020-10-09 00:00","slug":"/blogs/space","title":"Space"}},{"frontmatter":{"date":"2020-08-14 00:00","slug":"/blogs/time","title":"Time"}},{"frontmatter":{"date":"2020-08-12 00:00","slug":"/blogs/iqra","title":"Iqra'"}}]}},"pageContext":{}},
+    "staticQueryHashes": []}

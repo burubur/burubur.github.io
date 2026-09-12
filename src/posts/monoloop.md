@@ -10,7 +10,7 @@ The hum. That low-frequency thrum that vibrates through the floorboards of every
 
 We tell ourselves it’s a process. We call it "Agile" or "The SDLC" or "CI/CD." But let’s be honest: it’s a **Perpetual Motion Machine**.
 
-The premise is seductive. It’s the ultimate engineering fantasy. If we just build the loop tight enough—if we connect the *Sensor* (the logs) to the *Effector* (the patch) with zero latency—we can create a system that runs forever. A closed loop. A perfect circle.
+The premise is seductive. It’s the ultimate engineering fantasy. If we just build the loop tight enough—if we connect the _Sensor_ (the logs) to the _Effector_ (the patch) with zero latency—we can create a system that runs forever. A closed loop. A perfect circle.
 
 We feed it requirements at one end, it spits out features at the other, and the waste heat? We just pipe that back into the intake as "refactoring."
 

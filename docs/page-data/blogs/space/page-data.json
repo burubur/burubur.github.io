@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-template-js",
+    "path": "/blogs/space",
+    "result": {"data":{"markdownRemark":{"html":"<p>Space is unlimited, cause if it is limited then the limit itself is unlimited.</p>","frontmatter":{"date":"October 09, 2020","slug":"/blogs/space","title":"Space"}}},"pageContext":{"slug":"/blogs/space"}},
+    "staticQueryHashes": []}

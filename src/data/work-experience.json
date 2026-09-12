@@ -58,9 +58,7 @@
       "endDate": "2022-09",
       "duration": "Oct 2019 - Sep 2022 (3 years)",
       "description": "Maintaining microservices and developing features for transport-related services",
-      "projects": [
-        "Transport Services"
-      ],
+      "projects": ["Transport Services"],
       "current": false
     },
     {
@@ -95,11 +93,7 @@
       "endDate": "2019-09",
       "duration": "Jul 2018 - Sep 2019 (1 year 3 months)",
       "description": "Maintained 30+ microservices, developed Kafka integrations for digital goods and bill payments",
-      "projects": [
-        "Digital Goods",
-        "Bill Payments",
-        "Game Vouchers"
-      ],
+      "projects": ["Digital Goods", "Bill Payments", "Game Vouchers"],
       "achievements": [
         "Maintained and enhanced 30+ microservices for digital goods operations",
         "Implemented Kafka-based integrations for digital goods and bill payment systems",
@@ -117,10 +111,7 @@
       "endDate": "2018-10",
       "duration": "Oct 2017 - Oct 2018 (1 year 1 month)",
       "description": "Managing microservices, integrating digital goods and game vouchers",
-      "projects": [
-        "Digital Goods",
-        "Game Vouchers"
-      ],
+      "projects": ["Digital Goods", "Game Vouchers"],
       "current": false
     },
     {
@@ -133,10 +124,7 @@
       "endDate": "2017-10",
       "duration": "Mar 2017 - Oct 2017 (8 months)",
       "description": "Event sourcing microservices, fraud management systems",
-      "projects": [
-        "Event Sourcing",
-        "Fraud Management"
-      ],
+      "projects": ["Event Sourcing", "Fraud Management"],
       "current": false
     },
     {
@@ -166,9 +154,7 @@
       "endDate": "2016-01",
       "duration": "May 2014 - Jan 2016 (1 year 9 months)",
       "description": "HRIS system implementation and customization using Adobe ColdFusion",
-      "projects": [
-        "HRIS Implementation"
-      ],
+      "projects": ["HRIS Implementation"],
       "current": false
     }
   ],

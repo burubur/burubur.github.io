@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-template-js",
+    "path": "/blogs/whysingularity",
+    "result": {"data":{"markdownRemark":{"html":"<p>To have a purpose.</p>\n<p>That's the only logical reason why god manifests us. If everythings are in a stable state in the present, then no logical reason we have to be created, no reason why we should have brain, no reason why we have to think.</p>","frontmatter":{"date":"September 12, 2026","slug":"/blogs/whysingularity","title":"Why's Singularity"}}},"pageContext":{"slug":"/blogs/whysingularity"}},
+    "staticQueryHashes": []}

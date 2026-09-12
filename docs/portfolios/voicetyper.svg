@@ -1,0 +1,30 @@
+<svg width="520" height="360" viewBox="0 0 520 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Voicetyper app preview</title>
+  <desc id="desc">A macOS voice typing interface with a microphone, waveform, and dictated text.</desc>
+  <rect width="520" height="360" rx="28" fill="#101828"/>
+  <rect x="36" y="36" width="448" height="288" rx="22" fill="#F8FAFC"/>
+  <rect x="36" y="36" width="448" height="48" rx="22" fill="#E2E8F0"/>
+  <circle cx="64" cy="60" r="7" fill="#EF4444"/>
+  <circle cx="88" cy="60" r="7" fill="#F59E0B"/>
+  <circle cx="112" cy="60" r="7" fill="#22C55E"/>
+  <rect x="210" y="52" width="100" height="16" rx="8" fill="#CBD5E1"/>
+  <circle cx="260" cy="157" r="52" fill="#0F172A"/>
+  <rect x="241" y="116" width="38" height="78" rx="19" fill="#38BDF8"/>
+  <path d="M226 158C226 177 241 192 260 192C279 192 294 177 294 158" stroke="#38BDF8" stroke-width="14" stroke-linecap="round"/>
+  <path d="M260 200V224" stroke="#0F172A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M235 224H285" stroke="#0F172A" stroke-width="14" stroke-linecap="round"/>
+  <rect x="76" y="257" width="368" height="34" rx="17" fill="#E0F2FE"/>
+  <rect x="101" y="271" width="28" height="6" rx="3" fill="#0284C7"/>
+  <rect x="141" y="265" width="12" height="18" rx="6" fill="#0284C7"/>
+  <rect x="165" y="260" width="12" height="28" rx="6" fill="#0284C7"/>
+  <rect x="189" y="268" width="12" height="12" rx="6" fill="#0284C7"/>
+  <rect x="213" y="262" width="12" height="24" rx="6" fill="#0284C7"/>
+  <rect x="237" y="270" width="46" height="6" rx="3" fill="#0284C7"/>
+  <rect x="76" y="105" width="86" height="10" rx="5" fill="#CBD5E1"/>
+  <rect x="76" y="127" width="118" height="10" rx="5" fill="#E2E8F0"/>
+  <rect x="326" y="111" width="86" height="10" rx="5" fill="#CBD5E1"/>
+  <rect x="326" y="133" width="118" height="10" rx="5" fill="#E2E8F0"/>
+  <rect x="326" y="155" width="72" height="10" rx="5" fill="#E2E8F0"/>
+  <path d="M98 218C134 197 160 197 196 218" stroke="#94A3B8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M324 218C360 197 386 197 422 218" stroke="#94A3B8" stroke-width="8" stroke-linecap="round"/>
+</svg>

@@ -1,203 +1,174 @@
 {
-    "summary": {
-        "title": "Portfolio",
-        "description": "Selected personal and professional systems from backend engineering, transport platforms, digital goods, finance operations, and internal tools."
+  "summary": {
+    "title": "Portfolio",
+    "description": "Selected personal and professional systems from backend engineering, transport platforms, digital goods, finance operations, and internal tools."
+  },
+  "projects": [
+    {
+      "id": "voicetyper",
+      "year": "2026",
+      "name": "Voicetyper",
+      "brief": "A minimalist voice typing tool and dictation service. Connects to robust speech-to-text APIs to provide fast, continuous typing directly into text editors and active windows.",
+      "url": "https://github.com/burubur/voicetyper",
+      "type": "Personal",
+      "image": "/portfolios/voicetyper-transcriptions.jpg",
+      "imageAlt": "VoiceTyper transcriptions window",
+      "techStack": ["Swift", "whisper.cpp", "macOS"]
     },
-    "projects": [
-        {
-            "id": "voicetyper",
-            "year": "2026",
-            "name": "Voicetyper",
-            "brief": "A minimalist voice typing tool and dictation service. Connects to robust speech-to-text APIs to provide fast, continuous typing directly into text editors and active windows.",
-            "url": "https://github.com/burubur/voicetyper",
-            "type": "Personal",
-            "image": "/portfolios/voicetyper-transcriptions.jpg",
-            "imageAlt": "VoiceTyper transcriptions window",
-            "techStack": [
-                "Swift",
-                "whisper.cpp",
-                "macOS"
-            ]
-        },
-        {
-            "id": "pricing-backend",
-            "year": "2024 - Present",
-            "name": "Pricing Backend",
-            "brief": "Flight pricing backend migration and modernization work at Agoda, focused on rewriting Scala services into Kotlin while keeping production pricing flows reliable.",
-            "url": "https://www.agoda.com/",
-            "type": "Company",
-            "techStack": [
-                "Kotlin",
-                "Scala",
-                "MSSQL",
-                "Couchbase",
-                "Hollow"
-            ],
-            "image": "/portfolios/pricing-backend-migration.png",
-            "imageAlt": "Scala to Kotlin pricing backend migration illustration"
-        },
-        {
-            "id": "pickup-dropoff-aggregation",
-            "year": "2019 - 2024",
-            "name": "Pickup and Drop Off Aggregation Service",
-            "brief": "Transport service aggregation work for GoTo, supporting pickup and drop-off experiences across ride-hailing flows and related microservices.",
-            "url": "https://www.gotocompany.com/",
-            "type": "Company",
-            "techStack": [
-                "Ruby on Rails",
-                "Golang",
-                "Google Cloud Spanner",
-                "Google Cloud Memorystore",
-                "Redis"
-            ],
-            "image": "/portfolios/pickup-dropoff-aggregation.svg",
-            "imageAlt": "Pickup and drop off aggregation service preview"
-        },
-        {
-            "id": "booking-management",
-            "year": "2019 - 2024",
-            "name": "Booking Management Services",
-            "brief": "Edit booking and cancel booking services for transport products, built to support changing product requirements while preserving existing operational reliability.",
-            "url": "https://www.gotocompany.com/",
-            "type": "Company",
-            "techStack": [
-                "Golang",
-                "PostgreSQL",
-                "Kafka"
-            ],
-            "image": "/portfolios/booking-management-services.png",
-            "imageAlt": "Booking management edit and cancellation illustration"
-        },
-        {
-            "id": "gotransit",
-            "year": "2022 - 2024",
-            "name": "GoTransit KRL Integration",
-            "brief": "Public transportation integration work connecting GoTransit with KRL train services and related transport platform capabilities.",
-            "url": "https://www.gotocompany.com/",
-            "type": "Company",
-            "techStack": [
-                "Golang",
-                "PostgreSQL",
-                "Kafka",
-                "REST APIs"
-            ],
-            "image": "/portfolios/gotransit.png",
-            "imageAlt": "GoTransit KRL journey flow"
-        },
-        {
-            "id": "location-intelligence",
-            "year": "2019 - 2024",
-            "name": "Historical Place and Trip Advisor Services",
-            "brief": "Location and trip-supporting backend services for transport experiences, including historical place and trip advisor capabilities.",
-            "url": "https://www.gotocompany.com/",
-            "type": "Company",
-            "techStack": [
-                "Clojure",
-                "PostgreSQL",
-                "Redis"
-            ],
-            "image": "/portfolios/location-intelligence.svg",
-            "imageAlt": "Location intelligence services preview"
-        },
-        {
-            "id": "digital-goods-platform",
-            "year": "2017 - 2019",
-            "name": "Digital Goods Platform",
-            "brief": "Maintained and evolved a large digital goods microservice platform across Grab and Kudo, covering bill payments, telco billing, and game voucher integrations.",
-            "url": "https://www.grab.com/",
-            "type": "Company",
-            "techStack": [
-                "Golang",
-                "Kafka",
-                "Microservices",
-                "MySQL",
-                "Redis"
-            ],
-            "image": "/portfolios/digital-goods-platform.svg",
-            "imageAlt": "Digital goods platform preview"
-        },
-        {
-            "id": "billpayment-integration",
-            "year": "2018 - 2019",
-            "name": "Kafka Bill Payment Integrations",
-            "brief": "Kafka-based integration services for bill payment providers such as PDAM, PLN, BPJS, Telkom, telco billers, and game voucher providers.",
-            "url": "https://www.grab.com/",
-            "type": "Company",
-            "techStack": [
-                "Golang",
-                "Kafka",
-                "Event-Driven Architecture",
-                "External API Integration",
-                "Idempotent Consumers"
-            ],
-            "image": "/portfolios/billpayment-integration.svg",
-            "imageAlt": "Bill payment integration preview"
-        },
-        {
-            "id": "reconciliation-engine",
-            "year": "2017",
-            "name": "Dynamic Reconciliation Engine",
-            "brief": "Internal finance tooling at Kudo for transaction reconciliation, margin fee calculation, and finance operations automation.",
-            "url": "https://www.gotocompany.com/",
-            "type": "Company",
-            "techStack": [
-                "Kafka",
-                "Event Sourcing",
-                "Batch Reconciliation",
-                "Internal Web Application"
-            ],
-            "image": "/portfolios/reconciliation-engine.svg",
-            "imageAlt": "Dynamic reconciliation engine preview"
-        },
-        {
-            "id": "fraud-management-system",
-            "year": "2017",
-            "name": "Fraud Management System",
-            "brief": "Fraud operations system with Sift Science fraud analytics API integration through daemon-based processing.",
-            "url": "https://www.gotocompany.com/",
-            "type": "Company",
-            "techStack": [
-                "Sift Science API",
-                "Daemon",
-                "Fraud Analytics",
-                "Background Processing"
-            ],
-            "image": "/portfolios/fraud-management-system.svg",
-            "imageAlt": "Fraud management system preview"
-        },
-        {
-            "id": "enterprise-csharp-platforms",
-            "year": "2016 - 2017",
-            "name": "Enterprise C# Applications",
-            "brief": "C# application work covering HRIS migration, notification management with SignalR, video streaming APIs, investment application maintenance, jobs portal migration, and e-learning.",
-            "url": null,
-            "type": "Company",
-            "techStack": [
-                "C#",
-                "ASP.NET",
-                "SignalR",
-                "Video Streaming API",
-                "REST APIs",
-                "SQL Server"
-            ],
-            "image": "/portfolios/enterprise-csharp-platforms-transparent.png",
-            "imageAlt": "Enterprise C sharp applications portfolio image"
-        },
-        {
-            "id": "sunfish-hris",
-            "year": "2014 - 2016",
-            "name": "SunFish HRIS Implementation",
-            "brief": "HRIS implementation and customization work for client business processes, covering modules such as employee data, attendance, payroll, reimbursement, loan, performance, training, organization, career administration, and recruitment.",
-            "url": null,
-            "type": "Company",
-            "techStack": [
-                "Adobe ColdFusion",
-                "SQL",
-                "Server-Side Web Modules",
-                "Report Customization"
-            ],
-            "image": "/portfolios/sunfish-hris.webp",
-            "imageAlt": "SunFish HRIS product hero image"
-        }
-    ]
+    {
+      "id": "pricing-backend",
+      "year": "2024 - Present",
+      "name": "Pricing Backend",
+      "brief": "Flight pricing backend migration and modernization work at Agoda, focused on rewriting Scala services into Kotlin while keeping production pricing flows reliable.",
+      "url": "https://www.agoda.com/",
+      "type": "Company",
+      "techStack": ["Kotlin", "Scala", "MSSQL", "Couchbase", "Hollow"],
+      "image": "/portfolios/pricing-backend-migration.png",
+      "imageAlt": "Scala to Kotlin pricing backend migration illustration"
+    },
+    {
+      "id": "pickup-dropoff-aggregation",
+      "year": "2019 - 2024",
+      "name": "Pickup and Drop Off Aggregation Service",
+      "brief": "Transport service aggregation work for GoTo, supporting pickup and drop-off experiences across ride-hailing flows and related microservices.",
+      "url": "https://www.gotocompany.com/",
+      "type": "Company",
+      "techStack": [
+        "Ruby on Rails",
+        "Golang",
+        "Google Cloud Spanner",
+        "Google Cloud Memorystore",
+        "Redis"
+      ],
+      "image": "/portfolios/pickup-dropoff-aggregation.svg",
+      "imageAlt": "Pickup and drop off aggregation service preview"
+    },
+    {
+      "id": "booking-management",
+      "year": "2019 - 2024",
+      "name": "Booking Management Services",
+      "brief": "Edit booking and cancel booking services for transport products, built to support changing product requirements while preserving existing operational reliability.",
+      "url": "https://www.gotocompany.com/",
+      "type": "Company",
+      "techStack": ["Golang", "PostgreSQL", "Kafka"],
+      "image": "/portfolios/booking-management-services.png",
+      "imageAlt": "Booking management edit and cancellation illustration"
+    },
+    {
+      "id": "gotransit",
+      "year": "2022 - 2024",
+      "name": "GoTransit KRL Integration",
+      "brief": "Public transportation integration work connecting GoTransit with KRL train services and related transport platform capabilities.",
+      "url": "https://www.gotocompany.com/",
+      "type": "Company",
+      "techStack": ["Golang", "PostgreSQL", "Kafka", "REST APIs"],
+      "image": "/portfolios/gotransit.png",
+      "imageAlt": "GoTransit KRL journey flow"
+    },
+    {
+      "id": "location-intelligence",
+      "year": "2019 - 2024",
+      "name": "Historical Place and Trip Advisor Services",
+      "brief": "Location and trip-supporting backend services for transport experiences, including historical place and trip advisor capabilities.",
+      "url": "https://www.gotocompany.com/",
+      "type": "Company",
+      "techStack": ["Clojure", "PostgreSQL", "Redis"],
+      "image": "/portfolios/location-intelligence.svg",
+      "imageAlt": "Location intelligence services preview"
+    },
+    {
+      "id": "digital-goods-platform",
+      "year": "2017 - 2019",
+      "name": "Digital Goods Platform",
+      "brief": "Maintained and evolved a large digital goods microservice platform across Grab and Kudo, covering bill payments, telco billing, and game voucher integrations.",
+      "url": "https://www.grab.com/",
+      "type": "Company",
+      "techStack": ["Golang", "Kafka", "Microservices", "MySQL", "Redis"],
+      "image": "/portfolios/digital-goods-platform.svg",
+      "imageAlt": "Digital goods platform preview"
+    },
+    {
+      "id": "billpayment-integration",
+      "year": "2018 - 2019",
+      "name": "Kafka Bill Payment Integrations",
+      "brief": "Kafka-based integration services for bill payment providers such as PDAM, PLN, BPJS, Telkom, telco billers, and game voucher providers.",
+      "url": "https://www.grab.com/",
+      "type": "Company",
+      "techStack": [
+        "Golang",
+        "Kafka",
+        "Event-Driven Architecture",
+        "External API Integration",
+        "Idempotent Consumers"
+      ],
+      "image": "/portfolios/billpayment-integration.svg",
+      "imageAlt": "Bill payment integration preview"
+    },
+    {
+      "id": "reconciliation-engine",
+      "year": "2017",
+      "name": "Dynamic Reconciliation Engine",
+      "brief": "Internal finance tooling at Kudo for transaction reconciliation, margin fee calculation, and finance operations automation.",
+      "url": "https://www.gotocompany.com/",
+      "type": "Company",
+      "techStack": [
+        "Kafka",
+        "Event Sourcing",
+        "Batch Reconciliation",
+        "Internal Web Application"
+      ],
+      "image": "/portfolios/reconciliation-engine.svg",
+      "imageAlt": "Dynamic reconciliation engine preview"
+    },
+    {
+      "id": "fraud-management-system",
+      "year": "2017",
+      "name": "Fraud Management System",
+      "brief": "Fraud operations system with Sift Science fraud analytics API integration through daemon-based processing.",
+      "url": "https://www.gotocompany.com/",
+      "type": "Company",
+      "techStack": [
+        "Sift Science API",
+        "Daemon",
+        "Fraud Analytics",
+        "Background Processing"
+      ],
+      "image": "/portfolios/fraud-management-system.svg",
+      "imageAlt": "Fraud management system preview"
+    },
+    {
+      "id": "enterprise-csharp-platforms",
+      "year": "2016 - 2017",
+      "name": "Enterprise C# Applications",
+      "brief": "C# application work covering HRIS migration, notification management with SignalR, video streaming APIs, investment application maintenance, jobs portal migration, and e-learning.",
+      "url": null,
+      "type": "Company",
+      "techStack": [
+        "C#",
+        "ASP.NET",
+        "SignalR",
+        "Video Streaming API",
+        "REST APIs",
+        "SQL Server"
+      ],
+      "image": "/portfolios/enterprise-csharp-platforms-transparent.png",
+      "imageAlt": "Enterprise C sharp applications portfolio image"
+    },
+    {
+      "id": "sunfish-hris",
+      "year": "2014 - 2016",
+      "name": "SunFish HRIS Implementation",
+      "brief": "HRIS implementation and customization work for client business processes, covering modules such as employee data, attendance, payroll, reimbursement, loan, performance, training, organization, career administration, and recruitment.",
+      "url": null,
+      "type": "Company",
+      "techStack": [
+        "Adobe ColdFusion",
+        "SQL",
+        "Server-Side Web Modules",
+        "Report Customization"
+      ],
+      "image": "/portfolios/sunfish-hris.webp",
+      "imageAlt": "SunFish HRIS product hero image"
+    }
+  ]
 }
