@@ -18,7 +18,7 @@ export default function About() {
             Helping <a href="https://www.agoda.com/">Agoda Engineering</a>
           </li>
           <li>Exploiting Silicon Based Workforce</li>
-          <li>Designing Qorin as an Agentic Second Brained Assistant</li>
+          <li>Designing Qorin as an Agentic Comrade</li>
         </ul>
       </div>
     </Layout>
