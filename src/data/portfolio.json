@@ -11,8 +11,8 @@
             "brief": "A minimalist voice typing tool and dictation service. Connects to robust speech-to-text APIs to provide fast, continuous typing directly into text editors and active windows.",
             "url": "https://github.com/burubur/voicetyper",
             "type": "Personal",
-            "image": "/portfolios/voicetyper.svg",
-            "imageAlt": "Voicetyper app preview",
+            "image": "/portfolios/voicetyper-transcriptions.jpg",
+            "imageAlt": "VoiceTyper transcriptions window",
             "techStack": [
                 "Swift",
                 "whisper.cpp",
@@ -33,8 +33,8 @@
                 "Couchbase",
                 "Hollow"
             ],
-            "image": "/portfolios/pricing-backend.svg",
-            "imageAlt": "Pricing backend service architecture preview"
+            "image": "/portfolios/pricing-backend-migration.png",
+            "imageAlt": "Scala to Kotlin pricing backend migration illustration"
         },
         {
             "id": "pickup-dropoff-aggregation",
@@ -65,8 +65,8 @@
                 "PostgreSQL",
                 "Kafka"
             ],
-            "image": "/portfolios/booking-management.svg",
-            "imageAlt": "Booking management services preview"
+            "image": "/portfolios/booking-management-services.png",
+            "imageAlt": "Booking management edit and cancellation illustration"
         },
         {
             "id": "gotransit",
